@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><randomiser-instances>
+  <randomiser-instance name="branch" randomiser-type="GenericMemoryAccessRandomiser">
+    <description/>
+    <property name="stageReference" value="branch"/>
+    <property name="columnRef" value="BranchId"/>
+    <property name="UseParentRef" value="true"/>
+  </randomiser-instance>  
+  
+  <randomiser-instance name="customer" randomiser-type="GenericMemoryAccessRandomiser">
+    <description/>
+    <property name="stageReference" value="customer"/>
+    <property name="columnRef" value="cus"/>
+    <property name="UseParentRef" value="true"/>
+  </randomiser-instance>  
+  
+  <randomiser-instance name="account" randomiser-type="GenericMemoryAccessRandomiser">
+    <description/>
+    <property name="stageReference" value="account2"/>
+    <property name="columnRef" value="ac"/>
+    <property name="UseParentRef" value="true"/>
+  </randomiser-instance>  
+  
+  <randomiser-instance name="card" randomiser-type="GenericMemoryAccessRandomiser">
+    <description/>
+    <property name="stageReference" value="card2"/>
+    <property name="columnRef" value="card"/>
+    <property name="UseParentRef" value="true"/>
+  </randomiser-instance>  
+  
+ <randomiser-instance name="amount" randomiser-type="GenericStageDataContextRandomiser">
+ 	<property name="sdcontextReference" value="int"/>
+ 	<property name="preFix" value="€"/>
+ 	<property name="postFix" value=""/>
+  </randomiser-instance>
+  
+</randomiser-instances>

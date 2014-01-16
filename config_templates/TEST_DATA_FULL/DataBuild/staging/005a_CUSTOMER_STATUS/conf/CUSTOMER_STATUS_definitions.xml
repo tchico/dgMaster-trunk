@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datafile-definitions>
+	<File-output-definition delimiter="|" filename="CUSTOMER_STATUS" name="CUSTOMER_STATUS" numOfRecs="1">
+	<description/> 
+	<data-item nrname="CustomerStatusCode"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="CustomerStatusDesc"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	</File-output-definition>
+</datafile-definitions> 

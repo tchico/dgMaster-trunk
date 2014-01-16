@@ -1,0 +1,17 @@
+generator.Schema
+generator.db
+generator.engine
+generator.engine.db
+generator.engine.file
+generator.extenders
+generator.gui
+generator.gui.db
+generator.gui.graph
+generator.jarloader
+generator.masterbuild
+generator.misc
+generator.panels
+generator.randomisers
+generator.stagebuild
+generator.stagebuild.impl
+generator.standalone

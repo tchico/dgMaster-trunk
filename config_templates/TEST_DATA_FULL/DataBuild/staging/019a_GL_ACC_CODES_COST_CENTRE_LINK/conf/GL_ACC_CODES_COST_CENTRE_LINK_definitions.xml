@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datafile-definitions>
+	<File-output-definition delimiter="|" filename="GL_ACC_CODES_COST_CENTRE_LINK" name="GL_ACC_CODES_COST_CENTRE_LINK" numOfRecs="1">
+	<description/> 
+	<data-item nrname="GlAccountCode"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="CostCentreId"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	</File-output-definition>
+</datafile-definitions> 

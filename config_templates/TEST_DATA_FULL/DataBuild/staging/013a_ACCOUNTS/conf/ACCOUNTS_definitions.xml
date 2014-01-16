@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datafile-definitions>
+	<File-output-definition delimiter="|" filename="ACCOUNTS" name="ACCOUNTS" numOfRecs="1">
+	<description/> 
+	<data-item nrname="AccountSourceUniqueId"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="AccountSourceRefId"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="AccountName"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="CustomerSourceUniqueId"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="AccountStatusCode"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="CreditDebitCode"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="CurrencyCode"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="DateOpened"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="DateClosed"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="AccountBalance"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="OverdraftLimit"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="PeriodicLoanAmount"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="LifeInsContractDuration"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="BranchId"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="RelationshipMgrId"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="Iban"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="Bic"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="FrozenOverrideDate"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="ProductSourceTypeCode"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="CreditLimit"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="RiskScore"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="AccountSegment"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="DormantStatusFlag"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="FrozenStatusFlag"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="CreditGrade"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="RefDebtColFlag"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="BalanceDate"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="Comments"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="OrgUnitCode"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="IssueDate"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="PaymentFreq"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="InstPremiumAmt"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="AnnPremiumAmt"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="SinglePremiumTotal"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="SumInsured"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="PaymentMethod"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="BeneficiaryFlag"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="GrossPremTtd"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="CashSurrValue"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="DeathBenefitAmt"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="CustomerInitiatedClosure"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="DelayedAccountFlag"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="LanguagePrefCode"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="SettlementBankName"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="DeliveryInstructions"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="SettlementType"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="RiskCategory"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="BlockedType"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="BlockedReason"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="PrimaryCardId"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="Address"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="Zone"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="City"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="PostalCode"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="CountryCode"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="CreditTurnover"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="DebitTrunover"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="TurnoverFromDate"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="TurnoverToDate"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="HoldingBankName"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="SalaryLodgedFlag"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="AccountOnHoldFlag"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="SentCorrespondenceFlag"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="AccountPurpose"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	</File-output-definition>
+</datafile-definitions> 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datafile-definitions>
+  <File-output-definition delimiter="," filename="C:\workspace\DgMaster\DataBuild\staging\stage1\output\test_1.txt" name="STAGE_1" numOfRecs="100000">
+    <description/>
+    <data-item alignment="1" encloseChar="" randomiser-instance="CustomerId" width="-1"/>
+    <data-item alignment="1" encloseChar="" randomiser-instance="AccountId" width="-1"/>
+    <data-item alignment="1" encloseChar="" randomiser-instance="Stage Run Date" width="-1"/>
+  </File-output-definition>
+  <File-output-definition delimiter="," filename="C:\workspace\DgMaster\DataBuild\staging\stage1\output\test_1.txt" name="STAGE_1" numOfRecs="100000">
+    <description/>
+    <data-item alignment="1" encloseChar="" randomiser-instance="CustomerId" width="-1"/>
+    <data-item alignment="1" encloseChar="" randomiser-instance="AccountId" width="-1"/>
+    <data-item alignment="1" encloseChar="" randomiser-instance="Stage Run Date" width="-1"/>
+  </File-output-definition>
+</datafile-definitions>

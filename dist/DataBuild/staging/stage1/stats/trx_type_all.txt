@@ -1,0 +1,121 @@
+//amavg	amstd	cnt	transaction_type	account_type
+69.0764	9.164	2	credit transfer	Deposit account
+210.4486	16.17147888	4	deposit	Deposit account
+678.9	345.87	29	cash deposit	Deposit account
+496	0	1	cheque deposit	Deposit account
+833.145	15.55018547	4	EFT credit	Deposit account
+348.8921739	87.89	23	cheque deposit	Checking account
+234.72	134.78	12	card debit	Checking account
+56	34.78	56	atm debit	Checking account
+626.92	85.128576	8	Cheque Payment	Checking account
+100	10	7	Branch Withdrawal	Checking account
+145.78	34.98	21	Bill Payment	Checking account
+215.135	69.7589395	4	Cheque Payment	Checking account
+22.21	0	1	unpaid cheque fee	Checking account
+6.27	0	1	cancel cheque fee	Checking account
+10	5.67	2	admin fee	Current account
+782.673674	37.24147	3	credit transfer	Current account
+134.747799	20.13494429	19	deposit	Current account
+456.72	56.78	23	cash deposit	Current account
+783.1526879	165.1621894	132	cheque deposit	Current account
+147.799663	202.795844	76	EFT credit	Current account
+456.87	134.78	136	card debit	Current account
+116.56	53.78	137	atm debit	Current account
+105.5025709	32.5480401	13	Standing instruction	Current account
+2364.763537	53.535976	95	Mortgage debit	Current account
+105.28073	22.32628	56	EFT debit	Current account
+138.9800176	55.7649898	61	Cheque Payment	Current account
+200	50	45	Branch Withdrawal	Current account
+156.91	67.98	68	Bill Payment	Current account
+0	0	0	interest	Current account
+678.9	67.9	24	cash withdrawal	Current account
+5971.91136	60.57571	45	Salary Credit	Current account
+83.07516505	62.05870559	2	credit transfer	Transaction deposit
+84.59928571	75.82629502	24	deposit	Transaction deposit
+35.89	4.31	12	cash deposit	Transaction deposit
+1183.990033	162.5282222	24	cheque deposit	Transaction deposit
+46.40458	31.84884538	20	EFT credit	Transaction deposit
+75.35470633	33.4109512	3	credit transfer	Savings Account
+346.172247	174.02717	32	deposit	Savings Account
+234.9	132.32	30	cash deposit	Savings Account
+1065.7138	147.187466	2167	cheque deposit	Savings Account
+739.6015137	179.531406	12	EFT credit	Savings Account
+227.01864	123.35737	3	interest	Savings Account
+320.55549	110.63	4	deposit	Time deposit
+56.78	12.45	18	cash deposit	Time deposit
+10416.395	483.494489	6	deposit	Tax Free Savings Account
+78.94	45.67	5	cash deposit	Tax Free Savings Account
+520.98	303.58	14	EFT credit	Tax Free Savings Account
+1.745	1.45	2	interest change	Tax Free Savings Account
+30	0	1	annual card fee	Joint account
+670.52261	67.5532	1	credit transfer	Joint account
+304.48639	158.246	34	deposit	Joint account
+67.48	6.78	5	cash deposit	Joint account
+587.780111	235.16769	612	cheque deposit	Joint account
+560.0277	111.742	45	EFT credit	Joint account
+342.56	122.78	525	card debit	Joint account
+234.78	78.91	70	atm debit	Joint account
+354.32845	88.5709	12	Standing instruction	Joint account
+9074.266574	16.69411	46	Mortgage debit	Joint account
+476.36514	128.0079	188	EFT debit	Joint account
+54.71986087	13.762795	65	Cheque Payment	Joint account
+300	40	23	Branch Withdrawal	Joint account
+234.93	65.73	167	Bill Payment	Joint account
+0	0	0	interest	Joint account
+171.94182	60.52301	3	foreign currency purchase	Joint account
+789.15	457.34	70	cash withdrawal	Joint account
+8644.8692	54.0409	13	Salary Credit	Joint account
+4323.8805	246.413	2	credit transfer	Loan account
+4649.0745	278.5788	20	deposit	Loan account
+457.9	345.89	1	cash deposit	Loan account
+1565.669	294.3507	10	cheque deposit	Loan account
+6150.42857	694.44761	24	EFT credit	Loan account
+609.7187	41.0133	6	Standing instruction	Loan account
+7565.63	249.37	4	EFT debit	Loan account
+202.2941048	56.9607974	19	EFT credit	Trading Account
+214.96704	31.90197	23	foreign transfer fee	Trading Account
+223.5689	55.71069	6	foreign currency purchase	Trading Account
+533.907967	60.149316	6	foreign currency sale	Trading Account
+1045.3806	217.13	28	deposit	Mortgage Account
+37314.1014	16711.4164	1062	cheque deposit	Mortgage Account
+4395.292	540.4823	23	EFT credit	Mortgage Account
+43975.54675	76.24854	5	Salary Credit	Mortgage Account
+268.464628	107.364394	6	deposit	Money market account
+3479.075838	712.573183	31	EFT debit	Money market account
+204.835516	87.490219	20	foreign transfer fee	Money market account
+17.52344496	4.35238564	5	foreign currency purchase	Money market account
+266.902069	110.78133	5	foreign currency sale	Money market account
+44393.26	358.15592	5	deposit	Investment Account
+2754.978	480.15116	19	EFT credit	Investment Account
+120.958	17.59793	10	Standing instruction	Investment Account
+776.49	151.8808	9	foreign transfer fee	Investment Account
+3118.627143	359.177266	3	interest loan	Investment Account
+356.052	140.34438	5	foreign currency purchase	Investment Account
+247.565	0.065	2	deposit	Vostro Account
+667.78	0	1	cheque deposit	Vostro Account
+45	0	1	card debit	Vostro Account
+45.78	2.11	7	atm debit	Vostro Account
+247.52	0	1	Standing instruction	Vostro Account
+14278.32	0	1	Mortgage debit	Vostro Account
+14995.04	0	1	Cheque Payment	Vostro Account
+50	15	1	Branch Withdrawal	Vostro Account
+12.34	0	1	Bill Payment	Vostro Account
+497.465	83.6790973	2	foreign transfer fee	Vostro Account
+811.168333	45.43892	2	foreign currency purchase	Vostro Account
+41.106	34.33107457	2	foreign currency sale	Vostro Account
+112.1825	98.76	2	cash withdrawal	Vostro Account
+862.1466667	33.904575	2	Salary Credit	Vostro Account
+247.565	0.065	2	deposit	Nostro Account
+667.78	0	1	cheque deposit	Nostro Account
+90	0	1	card debit	Nostro Account
+56.78	3.56	8	atm debit	Nostro Account
+247.52	0	1	Standing instruction	Nostro Account
+14278.32	0	1	Mortgage debit	Nostro Account
+14995.04	0	1	Cheque Payment	Nostro Account
+40	5	1	Branch Withdrawal	Nostro Account
+10	0	0	Bill Payment	Nostro Account
+497.465	83.6790973	2	foreign transfer fee	Nostro Account
+811.168333	45.43892	2	foreign currency purchase	Nostro Account
+41.106	34.33107457	1	foreign currency sale	Nostro Account
+2345.5	0	1	cash withdrawal	Nostro Account
+1237.98	93.791671	1	Salary Credit	Nostro Account

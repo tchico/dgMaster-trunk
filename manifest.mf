@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Main-Class: generator.gui.Main
+Class-Path: lib/databene-benerator-0.4.1.jar lib/commons-logging-1.0.4
+ .jar lib/databene-commons-0.3.1.jar lib/databene-webdecs-0.3.1.jar li
+ b/freemarker-2.3.9.jar lib/jgraph.jar lib/log4j-1.2.15.jar lib/swing-
+ layout-1.0.3.jar lib/colt.jar
+X-COMMENT: Main-Class will be added automatically by build

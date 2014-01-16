@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datafile-definitions>
+	<File-output-definition delimiter="|" filename="EVENT_TYPES" name="EVENT_TYPES" numOfRecs="1">
+	<description/> 
+	<data-item nrname="EventTypeCode"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="EventDescription"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="EventEntity"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="EventGroup"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="EventValue1Caption"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="EventValue2Caption"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	</File-output-definition>
+</datafile-definitions> 

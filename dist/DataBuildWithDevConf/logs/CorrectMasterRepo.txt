@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><randomiser-instances>
+  <randomiser-instance name="CustomerId" randomiser-type="ListitemsGenerator">
+    <description/>
+    <property name="inputSource" value="file"/>
+    <property name="inputFile" value="c:\workspace\dgMaster\dist\DataBuild\staging\stage1\input\customer_id.txt"/>
+    <property name="nullField" value="0"/>
+  </randomiser-instance>
+  <randomiser-instance name="AccountId" randomiser-type="ListitemsSequencer">
+    <description/>
+    <property name="inputSource" value="file"/>
+    <property name="inputFile" value="c:\workspace\dgMaster\dist\DataBuild\staging\stage1\input\50k_accnums_out.txt"/>
+    <property name="nullField" value="0"/>
+  </randomiser-instance>
+  <randomiser-instance name="CustomerSegment" randomiser-type="ReferentialListRandomiser">
+    <description/>
+    <property name="referentialPosition" value="2"/>
+    <property name="keyPosition" value="0"/>
+    <property name="targetPosition" value="1"/>
+    <property name="seperator" value="|"/>
+    <property name="inputSource" value="file"/>
+    <property name="inputFile" value="c:\workspace\dgMaster\dist\DataBuild\staging\stage1\input\customers_out.txt"/>
+    <property name="nullField" value="0"/>
+  </randomiser-instance>
+  <randomiser-instance name="AccountType" randomiser-type="ListitemsGenerator">
+    <description/>
+    <property name="inputSource" value="file"/>
+    <property name="inputFile" value="c:\workspace\dgMaster\dist\DataBuild\staging\stage1\input\account_type.txt"/>
+    <property name="nullField" value="0"/>
+  </randomiser-instance>
+  <randomiser-instance name="TransactionType" randomiser-type="ReferentialPDFDiscreteRandomiser">
+    <description/>
+    <property name="inputFile" value="c:\workspace\dgMaster\dist\DataBuild\staging\stage1\stats\trx_type_all.txt"/>
+    <property name="countPosition" value="2"/>
+    <property name="targetPosition" value="3"/>
+    <property name="referentialPosition" value="5"/>
+    <property name="keyPosition" value="4"/>
+  </randomiser-instance>
+  <randomiser-instance name="AmountBaseCurrency" randomiser-type="ReferentialStdDeviationRandomiser">
+    <description/>
+    <property name="inputFile" value="c:\workspace\dgMaster\dist\DataBuild\staging\stage1\stats\trx_type_all.txt"/>
+    <property name="amavgPos" value="0"/>
+    <property name="amstdPos" value="1"/>
+    <property name="rangesNum" value="2"/>
+    <property name="RefPos0" value="5"/>
+    <property name="KeyPos0" value="4"/>
+    <property name="RefPos1" value="6"/>
+    <property name="KeyPos1" value="3"/>
+  </randomiser-instance>  
+  <randomiser-instance name="AccountTypePDF" randomiser-type="DoubleListRandomiser">
+    <description/>
+    <property name="inputSource" value="list"/>
+    <property name="rangesNum" value="15"/>
+	<property name="nullField" value="0"/>
+	<!-- -->
+	<property name="itemField0" value="Deposit account"/>
+	<property name="itemField1" value="Checking account"/>
+	<property name="itemField2" value="Current account"/>
+	<property name="itemField3" value="Transaction deposit"/>
+	<property name="itemField4" value="Savings Account"/>
+	<property name="itemField5" value="Time deposit"/>
+	<property name="itemField6" value="Tax Free Savings Account"/>
+	<property name="itemField7" value="Joint account"/>
+	<property name="itemField8" value="Loan account"/>
+	<property name="itemField9" value="Trading Account"/>
+	<property name="itemField10" value="Mortgage Account"/>
+	<property name="itemField11" value="Money market account"/>
+	<property name="itemField12" value="Investment Account"/>
+	<property name="itemField13" value="Vostro Account"/>
+	<property name="itemField14" value="Nostro Account"/>
+	<!--  -->
+	<property name="percentField0" value="0.000205319"/>
+	<property name="percentField1" value="0.002983972"/>
+	<property name="percentField2" value="0.482855852"/>
+	<property name="percentField3" value="0.037368082"/>
+	<property name="percentField4" value="0.004475957"/>
+	<property name="percentField5" value="0.028087659"/>
+	<property name="percentField6" value="0.000629645"/>
+	<property name="percentField7" value="0.200610482"/>
+	<property name="percentField8" value="0.002107943"/>
+	<property name="percentField9" value="0.004079007"/>
+	<property name="percentField10" value="0.145051124"/>
+	<property name="percentField11" value="0.000082127"/>
+	<property name="percentField12" value="0.084372477"/>
+	<property name="percentField13" value="0.001738369"/>
+	<property name="percentField14" value="0.005351985"/>
+  </randomiser-instance>
+    <randomiser-instance name="AccountTypePDF_1" randomiser-type="DoubleListRandomiser">
+    <description/>
+    <property name="inputSource" value="list"/>
+    <property name="rangesNum" value="3"/>
+	<property name="nullField" value="0"/>
+	<!-- -->
+	<property name="itemField0" value="Deposit account"/>
+	<property name="itemField1" value="Checking account"/>
+	<property name="itemField2" value="Current account"/>
+
+	<!--  -->
+	<property name="percentField0" value="0.25"/>
+	<property name="percentField1" value="0.50"/>
+	<property name="percentField2" value="0.25"/>
+
+  </randomiser-instance>
+  <randomiser-instance name="Jan12013" randomiser-type="DateRandomiser">
+    <description/>
+    <property name="rangesNum" value="1"/>
+    <property name="fromField0" value="2013-01-01"/>
+    <property name="toField0" value="2013-01-01"/>
+    <property name="percentField0" value="100"/>
+    <property name="nullField" value="0"/>
+    <property name="selectedDays" value="0000000"/>
+    <!--property name="dateFormat" value="yyyyMMdd"/-->
+	<property name="dateFormat" value="ddMMyyyy"/>
+  </randomiser-instance>
+  
+  <randomiser-instance name="Jan12013_TXT" randomiser-type="ListitemsGenerator">
+    <description/>
+    <property name="inputSource" value="list"/>
+    <property name="rangesNum" value="1"/>
+    <property name="itemField0" value="01012013"/>
+    <property name="percentField0" value="100"/>
+    <property name="nullField" value="0"/>
+  </randomiser-instance>
+  
+   <randomiser-instance name="ListItemGenTest" randomiser-type="ListitemsGenerator">
+    <description>ListItemGenTest</description>
+    <property name="inputSource" value="file"/>
+    <property name="inputFile" value="C:\workspace\dgMaster\dist\DataBuild\staging\stage1\input\customer_id.txt"/>
+    <property name="nullField" value="50"/>
+  </randomiser-instance>
+  
+  <randomiser-instance name="EmailRandomiserTest" randomiser-type="EmailRandomiser">
+    <description>EmailRandomiserTest</description>
+    <property name="nullField" value="0"/>
+    <property name="FirstnameSeedField" value="50"/>
+<property name="LastnameSeedField" value="0"/>
+  </randomiser-instance>
+  
+</randomiser-instances>

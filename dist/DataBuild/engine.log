@@ -1,0 +1,1579 @@
+INFO  31 Jul 2013 17:21:45,426:             MasterBuilder -                 init - Initialised logger from properties file C:/workspace/DgMaster/DataBuild/conf/generator.xml
+INFO  31 Jul 2013 17:21:45,428:             MasterBuilder -                 init - stagebasedir is C:/workspace/DgMaster/DataBuild/staging
+INFO  31 Jul 2013 17:21:45,429:             MasterBuilder -                 init - sharededir is C:/workspace/DgMaster/DataBuild/staging/shared
+INFO  31 Jul 2013 17:21:45,430:             MasterBuilder -                 init - systemdefinitions is C:/workspace/DgMaster/DataBuild/conf/SystemDefinitions.xml
+INFO  31 Jul 2013 17:21:45,430:             MasterBuilder -                 init - numstages is 3
+INFO  31 Jul 2013 17:21:45,436:             MasterBuilder -                 init - Data start_date is : Tue Jan 01 00:00:00 GMT 2013
+INFO  31 Jul 2013 17:21:45,437:             MasterBuilder -                 init - numdays is : 10
+INFO  31 Jul 2013 17:21:45,437:             MasterBuilder -                 init - Data end_date is : Thu Jan 10 00:00:00 GMT 2013
+INFO  31 Jul 2013 17:21:45,438:             MasterBuilder -                 init - buildorder is time
+INFO  31 Jul 2013 17:21:45,438:             MasterBuilder -       timeorderBuild - Starting time ordered build .
+INFO  31 Jul 2013 17:21:45,438:             MasterBuilder -       timeorderBuild - Generate all stages for day 1 : date Tue Jan 01 00:00:00 GMT 2013
+INFO  31 Jul 2013 17:21:45,439:             MasterBuilder -      initSingleStage - Initialising stage 1 . 
+INFO  31 Jul 2013 17:21:45,439:             MasterBuilder -      initStageConfig - Stage builder for stage 1 is generator.stagebuild.impl.GenericStageBuilder
+INFO  31 Jul 2013 17:21:45,441:       GenericStageBuilder -           initialise - Start stage build [GenericStageBuilder]. Generating day 1 of 10
+INFO  31 Jul 2013 17:21:45,460:       GenericStageBuilder -                build - Begin generation for day 20130101. Using file definition STAGE_1: C:\workspace\DgMaster\DataBuild\staging\stage1\output/20130101-test_1.txt
+INFO  31 Jul 2013 17:21:45,952:                 Generator -             generate - Time in millis:492
+INFO  31 Jul 2013 17:21:45,952:             MasterBuilder -      initSingleStage - Initialising stage 2 . 
+INFO  31 Jul 2013 17:21:45,953:             MasterBuilder -      initStageConfig - Stage builder for stage 2 is generator.stagebuild.impl.EntityStageBuilder
+INFO  31 Jul 2013 17:21:45,954:        EntityStageBuilder -           initialise - Start stage build [EntityStageBuilder]. Generating day 1 of 10
+INFO  31 Jul 2013 17:21:45,960:        EntityStageBuilder -                build - Begin generation for day 20130101. Using file definition STAGE_2: C:\workspace\DgMaster\DataBuild\staging\stage2\output/20130101-test_2.txt
+INFO  31 Jul 2013 17:21:46,160:                 Generator -             generate - Time in millis:199
+INFO  31 Jul 2013 17:21:46,160:        EntityStageBuilder -                build - Begin generation for day 20130101. Using file definition STAGE_2_MORE: C:\workspace\DgMaster\DataBuild\staging\stage2\output/20130101-testMore.txt
+INFO  31 Jul 2013 17:21:46,725:                 Generator -             generate - Time in millis:564
+INFO  31 Jul 2013 17:21:46,725:             MasterBuilder -      initSingleStage - Initialising stage 3 . 
+INFO  31 Jul 2013 17:21:46,726:             MasterBuilder -      initStageConfig - Stage builder for stage 3 is generator.stagebuild.impl.EventStageBuilder
+INFO  31 Jul 2013 17:21:46,727:         EventStageBuilder -           initialise - Start stage build [EventStageBuilder]. Generating day 1 of 10
+INFO  31 Jul 2013 17:21:46,731:         EventStageBuilder -                build - Begin generation for day 20130101. Using file definition STAGE_3: C:\workspace\DgMaster\DataBuild\staging\stage3\output/20130101-test_3.txt
+INFO  31 Jul 2013 17:21:46,926:                 Generator -             generate - Time in millis:194
+INFO  31 Jul 2013 17:21:46,926:             MasterBuilder -       timeorderBuild - Generate all stages for day 2 : date Wed Jan 02 00:00:00 GMT 2013
+INFO  31 Jul 2013 17:21:46,927:             MasterBuilder -      initSingleStage - Initialising stage 1 . 
+INFO  31 Jul 2013 17:21:46,927:             MasterBuilder -      initStageConfig - Stage builder for stage 1 is generator.stagebuild.impl.GenericStageBuilder
+INFO  31 Jul 2013 17:21:46,928:       GenericStageBuilder -           initialise - Start stage build [GenericStageBuilder]. Generating day 2 of 10
+INFO  31 Jul 2013 17:21:46,934:       GenericStageBuilder -                build - Begin generation for day 20130102. Using file definition STAGE_1: C:\workspace\DgMaster\DataBuild\staging\stage1\output/20130102-test_1.txt
+INFO  31 Jul 2013 17:21:47,104:                 Generator -             generate - Time in millis:170
+INFO  31 Jul 2013 17:21:47,104:             MasterBuilder -      initSingleStage - Initialising stage 2 . 
+INFO  31 Jul 2013 17:21:47,105:             MasterBuilder -      initStageConfig - Stage builder for stage 2 is generator.stagebuild.impl.EntityStageBuilder
+INFO  31 Jul 2013 17:21:47,105:        EntityStageBuilder -           initialise - Start stage build [EntityStageBuilder]. Generating day 2 of 10
+INFO  31 Jul 2013 17:21:47,112:        EntityStageBuilder -                build - Begin generation for day 20130102. Using file definition STAGE_2: C:\workspace\DgMaster\DataBuild\staging\stage2\output/20130102-test_2.txt
+INFO  31 Jul 2013 17:21:47,277:                 Generator -             generate - Time in millis:165
+INFO  31 Jul 2013 17:21:47,278:        EntityStageBuilder -                build - Begin generation for day 20130102. Using file definition STAGE_2_MORE: C:\workspace\DgMaster\DataBuild\staging\stage2\output/20130102-testMore.txt
+INFO  31 Jul 2013 17:21:47,695:                 Generator -             generate - Time in millis:417
+INFO  31 Jul 2013 17:21:47,695:             MasterBuilder -      initSingleStage - Initialising stage 3 . 
+INFO  31 Jul 2013 17:21:47,696:             MasterBuilder -      initStageConfig - Stage builder for stage 3 is generator.stagebuild.impl.EventStageBuilder
+INFO  31 Jul 2013 17:21:47,697:         EventStageBuilder -           initialise - Start stage build [EventStageBuilder]. Generating day 2 of 10
+INFO  31 Jul 2013 17:21:47,701:         EventStageBuilder -                build - Begin generation for day 20130102. Using file definition STAGE_3: C:\workspace\DgMaster\DataBuild\staging\stage3\output/20130102-test_3.txt
+INFO  31 Jul 2013 17:21:47,866:                 Generator -             generate - Time in millis:165
+INFO  31 Jul 2013 17:21:47,866:             MasterBuilder -       timeorderBuild - Generate all stages for day 3 : date Thu Jan 03 00:00:00 GMT 2013
+INFO  31 Jul 2013 17:21:47,866:             MasterBuilder -      initSingleStage - Initialising stage 1 . 
+INFO  31 Jul 2013 17:21:47,867:             MasterBuilder -      initStageConfig - Stage builder for stage 1 is generator.stagebuild.impl.GenericStageBuilder
+INFO  31 Jul 2013 17:21:47,868:       GenericStageBuilder -           initialise - Start stage build [GenericStageBuilder]. Generating day 3 of 10
+INFO  31 Jul 2013 17:21:47,873:       GenericStageBuilder -                build - Begin generation for day 20130103. Using file definition STAGE_1: C:\workspace\DgMaster\DataBuild\staging\stage1\output/20130103-test_1.txt
+INFO  31 Jul 2013 17:21:48,042:                 Generator -             generate - Time in millis:168
+INFO  31 Jul 2013 17:21:48,043:             MasterBuilder -      initSingleStage - Initialising stage 2 . 
+INFO  31 Jul 2013 17:21:48,043:             MasterBuilder -      initStageConfig - Stage builder for stage 2 is generator.stagebuild.impl.EntityStageBuilder
+INFO  31 Jul 2013 17:21:48,044:        EntityStageBuilder -           initialise - Start stage build [EntityStageBuilder]. Generating day 3 of 10
+INFO  31 Jul 2013 17:21:48,049:        EntityStageBuilder -                build - Begin generation for day 20130103. Using file definition STAGE_2: C:\workspace\DgMaster\DataBuild\staging\stage2\output/20130103-test_2.txt
+INFO  31 Jul 2013 17:21:48,220:                 Generator -             generate - Time in millis:171
+INFO  31 Jul 2013 17:21:48,220:        EntityStageBuilder -                build - Begin generation for day 20130103. Using file definition STAGE_2_MORE: C:\workspace\DgMaster\DataBuild\staging\stage2\output/20130103-testMore.txt
+INFO  31 Jul 2013 17:21:48,640:                 Generator -             generate - Time in millis:419
+INFO  31 Jul 2013 17:21:48,640:             MasterBuilder -      initSingleStage - Initialising stage 3 . 
+INFO  31 Jul 2013 17:21:48,640:             MasterBuilder -      initStageConfig - Stage builder for stage 3 is generator.stagebuild.impl.EventStageBuilder
+INFO  31 Jul 2013 17:21:48,641:         EventStageBuilder -           initialise - Start stage build [EventStageBuilder]. Generating day 3 of 10
+INFO  31 Jul 2013 17:21:48,645:         EventStageBuilder -                build - Begin generation for day 20130103. Using file definition STAGE_3: C:\workspace\DgMaster\DataBuild\staging\stage3\output/20130103-test_3.txt
+INFO  31 Jul 2013 17:21:48,813:                 Generator -             generate - Time in millis:168
+INFO  31 Jul 2013 17:21:48,813:             MasterBuilder -       timeorderBuild - Generate all stages for day 4 : date Fri Jan 04 00:00:00 GMT 2013
+INFO  31 Jul 2013 17:21:48,813:             MasterBuilder -      initSingleStage - Initialising stage 1 . 
+INFO  31 Jul 2013 17:21:48,814:             MasterBuilder -      initStageConfig - Stage builder for stage 1 is generator.stagebuild.impl.GenericStageBuilder
+INFO  31 Jul 2013 17:21:48,814:       GenericStageBuilder -           initialise - Start stage build [GenericStageBuilder]. Generating day 4 of 10
+INFO  31 Jul 2013 17:21:48,820:       GenericStageBuilder -                build - Begin generation for day 20130104. Using file definition STAGE_1: C:\workspace\DgMaster\DataBuild\staging\stage1\output/20130104-test_1.txt
+INFO  31 Jul 2013 17:21:48,989:                 Generator -             generate - Time in millis:169
+INFO  31 Jul 2013 17:21:48,989:             MasterBuilder -      initSingleStage - Initialising stage 2 . 
+INFO  31 Jul 2013 17:21:48,990:             MasterBuilder -      initStageConfig - Stage builder for stage 2 is generator.stagebuild.impl.EntityStageBuilder
+INFO  31 Jul 2013 17:21:48,990:        EntityStageBuilder -           initialise - Start stage build [EntityStageBuilder]. Generating day 4 of 10
+INFO  31 Jul 2013 17:21:48,995:        EntityStageBuilder -                build - Begin generation for day 20130104. Using file definition STAGE_2: C:\workspace\DgMaster\DataBuild\staging\stage2\output/20130104-test_2.txt
+INFO  31 Jul 2013 17:21:49,162:                 Generator -             generate - Time in millis:167
+INFO  31 Jul 2013 17:21:49,163:        EntityStageBuilder -                build - Begin generation for day 20130104. Using file definition STAGE_2_MORE: C:\workspace\DgMaster\DataBuild\staging\stage2\output/20130104-testMore.txt
+INFO  31 Jul 2013 17:21:49,567:                 Generator -             generate - Time in millis:404
+INFO  31 Jul 2013 17:21:49,567:             MasterBuilder -      initSingleStage - Initialising stage 3 . 
+INFO  31 Jul 2013 17:21:49,567:             MasterBuilder -      initStageConfig - Stage builder for stage 3 is generator.stagebuild.impl.EventStageBuilder
+INFO  31 Jul 2013 17:21:49,568:         EventStageBuilder -           initialise - Start stage build [EventStageBuilder]. Generating day 4 of 10
+INFO  31 Jul 2013 17:21:49,572:         EventStageBuilder -                build - Begin generation for day 20130104. Using file definition STAGE_3: C:\workspace\DgMaster\DataBuild\staging\stage3\output/20130104-test_3.txt
+INFO  31 Jul 2013 17:21:49,710:                 Generator -             generate - Time in millis:138
+INFO  31 Jul 2013 17:21:49,711:             MasterBuilder -       timeorderBuild - Generate all stages for day 5 : date Sat Jan 05 00:00:00 GMT 2013
+INFO  31 Jul 2013 17:21:49,711:             MasterBuilder -      initSingleStage - Initialising stage 1 . 
+INFO  31 Jul 2013 17:21:49,711:             MasterBuilder -      initStageConfig - Stage builder for stage 1 is generator.stagebuild.impl.GenericStageBuilder
+INFO  31 Jul 2013 17:21:49,712:       GenericStageBuilder -           initialise - Start stage build [GenericStageBuilder]. Generating day 5 of 10
+INFO  31 Jul 2013 17:21:49,717:       GenericStageBuilder -                build - Begin generation for day 20130105. Using file definition STAGE_1: C:\workspace\DgMaster\DataBuild\staging\stage1\output/20130105-test_1.txt
+INFO  31 Jul 2013 17:21:49,862:                 Generator -             generate - Time in millis:144
+INFO  31 Jul 2013 17:21:49,863:             MasterBuilder -      initSingleStage - Initialising stage 2 . 
+INFO  31 Jul 2013 17:21:49,863:             MasterBuilder -      initStageConfig - Stage builder for stage 2 is generator.stagebuild.impl.EntityStageBuilder
+INFO  31 Jul 2013 17:21:49,863:        EntityStageBuilder -           initialise - Start stage build [EntityStageBuilder]. Generating day 5 of 10
+INFO  31 Jul 2013 17:21:49,868:        EntityStageBuilder -                build - Begin generation for day 20130105. Using file definition STAGE_2: C:\workspace\DgMaster\DataBuild\staging\stage2\output/20130105-test_2.txt
+INFO  31 Jul 2013 17:21:50,009:                 Generator -             generate - Time in millis:141
+INFO  31 Jul 2013 17:21:50,010:        EntityStageBuilder -                build - Begin generation for day 20130105. Using file definition STAGE_2_MORE: C:\workspace\DgMaster\DataBuild\staging\stage2\output/20130105-testMore.txt
+INFO  31 Jul 2013 17:21:50,383:                 Generator -             generate - Time in millis:373
+INFO  31 Jul 2013 17:21:50,384:             MasterBuilder -      initSingleStage - Initialising stage 3 . 
+INFO  31 Jul 2013 17:21:50,384:             MasterBuilder -      initStageConfig - Stage builder for stage 3 is generator.stagebuild.impl.EventStageBuilder
+INFO  31 Jul 2013 17:21:50,386:         EventStageBuilder -           initialise - Start stage build [EventStageBuilder]. Generating day 5 of 10
+INFO  31 Jul 2013 17:21:50,391:         EventStageBuilder -                build - Begin generation for day 20130105. Using file definition STAGE_3: C:\workspace\DgMaster\DataBuild\staging\stage3\output/20130105-test_3.txt
+INFO  31 Jul 2013 17:21:50,531:                 Generator -             generate - Time in millis:139
+INFO  31 Jul 2013 17:21:50,532:             MasterBuilder -       timeorderBuild - Generate all stages for day 6 : date Sun Jan 06 00:00:00 GMT 2013
+INFO  31 Jul 2013 17:21:50,532:             MasterBuilder -      initSingleStage - Initialising stage 1 . 
+INFO  31 Jul 2013 17:21:50,534:             MasterBuilder -      initStageConfig - Stage builder for stage 1 is generator.stagebuild.impl.GenericStageBuilder
+INFO  31 Jul 2013 17:21:50,536:       GenericStageBuilder -           initialise - Start stage build [GenericStageBuilder]. Generating day 6 of 10
+INFO  31 Jul 2013 17:21:50,542:       GenericStageBuilder -                build - Begin generation for day 20130106. Using file definition STAGE_1: C:\workspace\DgMaster\DataBuild\staging\stage1\output/20130106-test_1.txt
+INFO  31 Jul 2013 17:21:50,688:                 Generator -             generate - Time in millis:145
+INFO  31 Jul 2013 17:21:50,689:             MasterBuilder -      initSingleStage - Initialising stage 2 . 
+INFO  31 Jul 2013 17:21:50,689:             MasterBuilder -      initStageConfig - Stage builder for stage 2 is generator.stagebuild.impl.EntityStageBuilder
+INFO  31 Jul 2013 17:21:50,692:        EntityStageBuilder -           initialise - Start stage build [EntityStageBuilder]. Generating day 6 of 10
+INFO  31 Jul 2013 17:21:50,697:        EntityStageBuilder -                build - Begin generation for day 20130106. Using file definition STAGE_2: C:\workspace\DgMaster\DataBuild\staging\stage2\output/20130106-test_2.txt
+INFO  31 Jul 2013 17:21:50,836:                 Generator -             generate - Time in millis:138
+INFO  31 Jul 2013 17:21:50,837:        EntityStageBuilder -                build - Begin generation for day 20130106. Using file definition STAGE_2_MORE: C:\workspace\DgMaster\DataBuild\staging\stage2\output/20130106-testMore.txt
+INFO  31 Jul 2013 17:21:51,209:                 Generator -             generate - Time in millis:372
+INFO  31 Jul 2013 17:21:51,209:             MasterBuilder -      initSingleStage - Initialising stage 3 . 
+INFO  31 Jul 2013 17:21:51,210:             MasterBuilder -      initStageConfig - Stage builder for stage 3 is generator.stagebuild.impl.EventStageBuilder
+INFO  31 Jul 2013 17:21:51,212:         EventStageBuilder -           initialise - Start stage build [EventStageBuilder]. Generating day 6 of 10
+INFO  31 Jul 2013 17:21:51,217:         EventStageBuilder -                build - Begin generation for day 20130106. Using file definition STAGE_3: C:\workspace\DgMaster\DataBuild\staging\stage3\output/20130106-test_3.txt
+INFO  31 Jul 2013 17:21:51,356:                 Generator -             generate - Time in millis:139
+INFO  31 Jul 2013 17:21:51,357:             MasterBuilder -       timeorderBuild - Generate all stages for day 7 : date Mon Jan 07 00:00:00 GMT 2013
+INFO  31 Jul 2013 17:21:51,357:             MasterBuilder -      initSingleStage - Initialising stage 1 . 
+INFO  31 Jul 2013 17:21:51,359:             MasterBuilder -      initStageConfig - Stage builder for stage 1 is generator.stagebuild.impl.GenericStageBuilder
+INFO  31 Jul 2013 17:21:51,361:       GenericStageBuilder -           initialise - Start stage build [GenericStageBuilder]. Generating day 7 of 10
+INFO  31 Jul 2013 17:21:51,367:       GenericStageBuilder -                build - Begin generation for day 20130107. Using file definition STAGE_1: C:\workspace\DgMaster\DataBuild\staging\stage1\output/20130107-test_1.txt
+INFO  31 Jul 2013 17:21:51,514:                 Generator -             generate - Time in millis:146
+INFO  31 Jul 2013 17:21:51,515:             MasterBuilder -      initSingleStage - Initialising stage 2 . 
+INFO  31 Jul 2013 17:21:51,515:             MasterBuilder -      initStageConfig - Stage builder for stage 2 is generator.stagebuild.impl.EntityStageBuilder
+INFO  31 Jul 2013 17:21:51,517:        EntityStageBuilder -           initialise - Start stage build [EntityStageBuilder]. Generating day 7 of 10
+INFO  31 Jul 2013 17:21:51,523:        EntityStageBuilder -                build - Begin generation for day 20130107. Using file definition STAGE_2: C:\workspace\DgMaster\DataBuild\staging\stage2\output/20130107-test_2.txt
+INFO  31 Jul 2013 17:21:51,665:                 Generator -             generate - Time in millis:141
+INFO  31 Jul 2013 17:21:51,665:        EntityStageBuilder -                build - Begin generation for day 20130107. Using file definition STAGE_2_MORE: C:\workspace\DgMaster\DataBuild\staging\stage2\output/20130107-testMore.txt
+INFO  31 Jul 2013 17:21:52,038:                 Generator -             generate - Time in millis:372
+INFO  31 Jul 2013 17:21:52,038:             MasterBuilder -      initSingleStage - Initialising stage 3 . 
+INFO  31 Jul 2013 17:21:52,038:             MasterBuilder -      initStageConfig - Stage builder for stage 3 is generator.stagebuild.impl.EventStageBuilder
+INFO  31 Jul 2013 17:21:52,041:         EventStageBuilder -           initialise - Start stage build [EventStageBuilder]. Generating day 7 of 10
+INFO  31 Jul 2013 17:21:52,046:         EventStageBuilder -                build - Begin generation for day 20130107. Using file definition STAGE_3: C:\workspace\DgMaster\DataBuild\staging\stage3\output/20130107-test_3.txt
+INFO  31 Jul 2013 17:21:52,187:                 Generator -             generate - Time in millis:141
+INFO  31 Jul 2013 17:21:52,187:             MasterBuilder -       timeorderBuild - Generate all stages for day 8 : date Tue Jan 08 00:00:00 GMT 2013
+INFO  31 Jul 2013 17:21:52,188:             MasterBuilder -      initSingleStage - Initialising stage 1 . 
+INFO  31 Jul 2013 17:21:52,190:             MasterBuilder -      initStageConfig - Stage builder for stage 1 is generator.stagebuild.impl.GenericStageBuilder
+INFO  31 Jul 2013 17:21:52,191:       GenericStageBuilder -           initialise - Start stage build [GenericStageBuilder]. Generating day 8 of 10
+INFO  31 Jul 2013 17:21:52,198:       GenericStageBuilder -                build - Begin generation for day 20130108. Using file definition STAGE_1: C:\workspace\DgMaster\DataBuild\staging\stage1\output/20130108-test_1.txt
+INFO  31 Jul 2013 17:21:52,346:                 Generator -             generate - Time in millis:148
+INFO  31 Jul 2013 17:21:52,347:             MasterBuilder -      initSingleStage - Initialising stage 2 . 
+INFO  31 Jul 2013 17:21:52,347:             MasterBuilder -      initStageConfig - Stage builder for stage 2 is generator.stagebuild.impl.EntityStageBuilder
+INFO  31 Jul 2013 17:21:52,349:        EntityStageBuilder -           initialise - Start stage build [EntityStageBuilder]. Generating day 8 of 10
+INFO  31 Jul 2013 17:21:52,355:        EntityStageBuilder -                build - Begin generation for day 20130108. Using file definition STAGE_2: C:\workspace\DgMaster\DataBuild\staging\stage2\output/20130108-test_2.txt
+INFO  31 Jul 2013 17:21:52,497:                 Generator -             generate - Time in millis:142
+INFO  31 Jul 2013 17:21:52,498:        EntityStageBuilder -                build - Begin generation for day 20130108. Using file definition STAGE_2_MORE: C:\workspace\DgMaster\DataBuild\staging\stage2\output/20130108-testMore.txt
+INFO  31 Jul 2013 17:21:52,866:                 Generator -             generate - Time in millis:368
+INFO  31 Jul 2013 17:21:52,866:             MasterBuilder -      initSingleStage - Initialising stage 3 . 
+INFO  31 Jul 2013 17:21:52,867:             MasterBuilder -      initStageConfig - Stage builder for stage 3 is generator.stagebuild.impl.EventStageBuilder
+INFO  31 Jul 2013 17:21:52,869:         EventStageBuilder -           initialise - Start stage build [EventStageBuilder]. Generating day 8 of 10
+INFO  31 Jul 2013 17:21:52,874:         EventStageBuilder -                build - Begin generation for day 20130108. Using file definition STAGE_3: C:\workspace\DgMaster\DataBuild\staging\stage3\output/20130108-test_3.txt
+INFO  31 Jul 2013 17:21:53,016:                 Generator -             generate - Time in millis:142
+INFO  31 Jul 2013 17:21:53,017:             MasterBuilder -       timeorderBuild - Generate all stages for day 9 : date Wed Jan 09 00:00:00 GMT 2013
+INFO  31 Jul 2013 17:21:53,017:             MasterBuilder -      initSingleStage - Initialising stage 1 . 
+INFO  31 Jul 2013 17:21:53,019:             MasterBuilder -      initStageConfig - Stage builder for stage 1 is generator.stagebuild.impl.GenericStageBuilder
+INFO  31 Jul 2013 17:21:53,021:       GenericStageBuilder -           initialise - Start stage build [GenericStageBuilder]. Generating day 9 of 10
+INFO  31 Jul 2013 17:21:53,027:       GenericStageBuilder -                build - Begin generation for day 20130109. Using file definition STAGE_1: C:\workspace\DgMaster\DataBuild\staging\stage1\output/20130109-test_1.txt
+INFO  31 Jul 2013 17:21:53,176:                 Generator -             generate - Time in millis:148
+INFO  31 Jul 2013 17:21:53,178:             MasterBuilder -      initSingleStage - Initialising stage 2 . 
+INFO  31 Jul 2013 17:21:53,179:             MasterBuilder -      initStageConfig - Stage builder for stage 2 is generator.stagebuild.impl.EntityStageBuilder
+INFO  31 Jul 2013 17:21:53,179:        EntityStageBuilder -           initialise - Start stage build [EntityStageBuilder]. Generating day 9 of 10
+INFO  31 Jul 2013 17:21:53,185:        EntityStageBuilder -                build - Begin generation for day 20130109. Using file definition STAGE_2: C:\workspace\DgMaster\DataBuild\staging\stage2\output/20130109-test_2.txt
+INFO  31 Jul 2013 17:21:53,327:                 Generator -             generate - Time in millis:141
+INFO  31 Jul 2013 17:21:53,327:        EntityStageBuilder -                build - Begin generation for day 20130109. Using file definition STAGE_2_MORE: C:\workspace\DgMaster\DataBuild\staging\stage2\output/20130109-testMore.txt
+INFO  31 Jul 2013 17:21:53,699:                 Generator -             generate - Time in millis:371
+INFO  31 Jul 2013 17:21:53,699:             MasterBuilder -      initSingleStage - Initialising stage 3 . 
+INFO  31 Jul 2013 17:21:53,700:             MasterBuilder -      initStageConfig - Stage builder for stage 3 is generator.stagebuild.impl.EventStageBuilder
+INFO  31 Jul 2013 17:21:53,702:         EventStageBuilder -           initialise - Start stage build [EventStageBuilder]. Generating day 9 of 10
+INFO  31 Jul 2013 17:21:53,707:         EventStageBuilder -                build - Begin generation for day 20130109. Using file definition STAGE_3: C:\workspace\DgMaster\DataBuild\staging\stage3\output/20130109-test_3.txt
+INFO  31 Jul 2013 17:21:53,847:                 Generator -             generate - Time in millis:140
+INFO  31 Jul 2013 17:21:53,847:             MasterBuilder -       timeorderBuild - Generate all stages for day 10 : date Thu Jan 10 00:00:00 GMT 2013
+INFO  31 Jul 2013 17:21:53,848:             MasterBuilder -      initSingleStage - Initialising stage 1 . 
+INFO  31 Jul 2013 17:21:53,850:             MasterBuilder -      initStageConfig - Stage builder for stage 1 is generator.stagebuild.impl.GenericStageBuilder
+INFO  31 Jul 2013 17:21:53,852:       GenericStageBuilder -           initialise - Start stage build [GenericStageBuilder]. Generating day 10 of 10
+INFO  31 Jul 2013 17:21:53,858:       GenericStageBuilder -                build - Begin generation for day 20130110. Using file definition STAGE_1: C:\workspace\DgMaster\DataBuild\staging\stage1\output/20130110-test_1.txt
+INFO  31 Jul 2013 17:21:54,005:                 Generator -             generate - Time in millis:147
+INFO  31 Jul 2013 17:21:54,005:             MasterBuilder -      initSingleStage - Initialising stage 2 . 
+INFO  31 Jul 2013 17:21:54,006:             MasterBuilder -      initStageConfig - Stage builder for stage 2 is generator.stagebuild.impl.EntityStageBuilder
+INFO  31 Jul 2013 17:21:54,008:        EntityStageBuilder -           initialise - Start stage build [EntityStageBuilder]. Generating day 10 of 10
+INFO  31 Jul 2013 17:21:54,014:        EntityStageBuilder -                build - Begin generation for day 20130110. Using file definition STAGE_2: C:\workspace\DgMaster\DataBuild\staging\stage2\output/20130110-test_2.txt
+INFO  31 Jul 2013 17:21:54,154:                 Generator -             generate - Time in millis:140
+INFO  31 Jul 2013 17:21:54,154:        EntityStageBuilder -                build - Begin generation for day 20130110. Using file definition STAGE_2_MORE: C:\workspace\DgMaster\DataBuild\staging\stage2\output/20130110-testMore.txt
+INFO  31 Jul 2013 17:21:54,531:                 Generator -             generate - Time in millis:376
+INFO  31 Jul 2013 17:21:54,531:             MasterBuilder -      initSingleStage - Initialising stage 3 . 
+INFO  31 Jul 2013 17:21:54,532:             MasterBuilder -      initStageConfig - Stage builder for stage 3 is generator.stagebuild.impl.EventStageBuilder
+INFO  31 Jul 2013 17:21:54,534:         EventStageBuilder -           initialise - Start stage build [EventStageBuilder]. Generating day 10 of 10
+INFO  31 Jul 2013 17:21:54,539:         EventStageBuilder -                build - Begin generation for day 20130110. Using file definition STAGE_3: C:\workspace\DgMaster\DataBuild\staging\stage3\output/20130110-test_3.txt
+INFO  31 Jul 2013 17:21:54,679:                 Generator -             generate - Time in millis:140
+ERROR 08 Aug 2013 17:39:38,182:  RandomDefinitionsBuilder -          getElements - Error during parsing xml file
+java.io.FileNotFoundException: C:\workspace\dgMaster\DataBuild\conf\DBFileDefinitions.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at generator.misc.RandomDefinitionsBuilder.getElements(RandomDefinitionsBuilder.java:65)
+	at generator.misc.Utils.loadDBFileDefinitions(Utils.java:196)
+	at generator.misc.ApplicationContext.refreshDBDefinitions(ApplicationContext.java:148)
+	at generator.stagebuild.impl.ConfigFilesLoader.loadDBGeneratorConfigFiles(ConfigFilesLoader.java:66)
+	at generator.gui.MainForm.initFileConfiguration(MainForm.java:149)
+	at generator.gui.MainForm.btnChangeRootConfigActionPerformed(MainForm.java:688)
+	at generator.gui.MainForm.access$300(MainForm.java:59)
+	at generator.gui.MainForm$4.actionPerformed(MainForm.java:349)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$200(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+ERROR 08 Aug 2013 17:39:46,769:  RandomDefinitionsBuilder -          getElements - Error during parsing xml file
+java.io.FileNotFoundException: C:\workspace\dgMaster\DataBuild\conf\DBFileDefinitions.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at generator.misc.RandomDefinitionsBuilder.getElements(RandomDefinitionsBuilder.java:65)
+	at generator.misc.Utils.loadDBFileDefinitions(Utils.java:196)
+	at generator.misc.ApplicationContext.refreshDBDefinitions(ApplicationContext.java:148)
+	at generator.stagebuild.impl.ConfigFilesLoader.loadDBGeneratorConfigFiles(ConfigFilesLoader.java:66)
+	at generator.gui.MainForm.initFileConfiguration(MainForm.java:149)
+	at generator.gui.MainForm.btnChangeConfigActionPerformed(MainForm.java:672)
+	at generator.gui.MainForm.access$200(MainForm.java:59)
+	at generator.gui.MainForm$3.actionPerformed(MainForm.java:342)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$200(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+WARN  08 Aug 2013 17:39:49,304:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  08 Aug 2013 17:39:49,306:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  08 Aug 2013 17:39:49,307:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  08 Aug 2013 17:39:49,308:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  08 Aug 2013 17:39:55,600:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  08 Aug 2013 17:39:55,602:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  08 Aug 2013 17:40:18,721:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  08 Aug 2013 17:40:18,722:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  08 Aug 2013 17:40:18,723:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  08 Aug 2013 17:40:18,724:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  08 Aug 2013 17:40:21,233:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  08 Aug 2013 17:40:21,234:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  08 Aug 2013 17:42:01,396:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  08 Aug 2013 17:42:01,398:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  08 Aug 2013 17:42:13,461:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  08 Aug 2013 17:42:13,462:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  08 Aug 2013 17:42:13,463:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  08 Aug 2013 17:42:13,464:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  08 Aug 2013 17:42:16,541:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  08 Aug 2013 17:42:16,565:       PanelDateRandomiser -           initialise - Error retrieving selected days
+java.lang.NullPointerException
+	at generator.panels.PanelDateRandomiser.initialise(PanelDateRandomiser.java:535)
+	at generator.gui.MainForm.loadRandomiserInstancePanel(MainForm.java:870)
+	at generator.gui.MainForm.treeDataBrowserValueChanged(MainForm.java:755)
+	at generator.gui.MainForm.access$500(MainForm.java:59)
+	at generator.gui.MainForm$6.valueChanged(MainForm.java:376)
+	at javax.swing.JTree.fireValueChanged(Unknown Source)
+	at javax.swing.JTree$TreeSelectionRedirector.valueChanged(Unknown Source)
+	at javax.swing.tree.DefaultTreeSelectionModel.fireValueChanged(Unknown Source)
+	at javax.swing.tree.DefaultTreeSelectionModel.notifyPathChange(Unknown Source)
+	at javax.swing.tree.DefaultTreeSelectionModel.setSelectionPaths(Unknown Source)
+	at javax.swing.tree.DefaultTreeSelectionModel.setSelectionPath(Unknown Source)
+	at javax.swing.JTree.setSelectionPath(Unknown Source)
+	at javax.swing.plaf.basic.BasicTreeUI.selectPathForEvent(Unknown Source)
+	at javax.swing.plaf.basic.BasicTreeUI$Handler.handleSelection(Unknown Source)
+	at javax.swing.plaf.basic.BasicTreeUI$Handler.mousePressed(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$200(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+WARN  08 Aug 2013 17:42:47,175:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  08 Aug 2013 17:42:47,176:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+INFO  08 Aug 2013 17:43:06,991:                 Generator -             generate - Time in millis:1430
+WARN  08 Aug 2013 17:50:00,178:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  08 Aug 2013 17:50:00,179:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  08 Aug 2013 17:50:00,180:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  08 Aug 2013 17:50:00,181:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  09 Aug 2013 16:08:33,446:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 16:08:33,446:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  09 Aug 2013 16:08:33,446:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  09 Aug 2013 16:08:33,446:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  09 Aug 2013 16:08:41,466:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 16:08:41,476:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  09 Aug 2013 16:08:41,476:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  09 Aug 2013 16:08:41,476:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  09 Aug 2013 16:09:09,056:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 16:09:09,056:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  09 Aug 2013 16:09:09,056:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  09 Aug 2013 16:09:09,056:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  09 Aug 2013 16:10:04,607:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 16:10:04,607:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  09 Aug 2013 16:10:04,607:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  09 Aug 2013 16:10:04,607:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  09 Aug 2013 16:10:07,677:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 16:10:07,677:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  09 Aug 2013 16:10:07,677:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  09 Aug 2013 16:10:07,677:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  09 Aug 2013 16:10:11,507:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 16:10:16,737:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 16:10:16,737:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+ERROR 09 Aug 2013 16:11:21,447:            ListRandomiser - setRandomiserInstance - CustomerId: could not locate file:c:\workspace\dgMaster\input\customer_id.txt
+java.io.FileNotFoundException: c:\workspace\dgMaster\input\customer_id.txt (The system cannot find the path specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at generator.misc.Utils.readFile(Utils.java:329)
+	at generator.randomisers.ListRandomiser.setRandomiserInstance(ListRandomiser.java:86)
+	at generator.engine.file.Generator.generate(Generator.java:306)
+	at generator.gui.FileOutputPanel$15.construct(FileOutputPanel.java:808)
+	at generator.gui.SwingWorker$2.run(SwingWorker.java:127)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 09 Aug 2013 16:11:21,447:                 Generator -             generate - Error while initialising a generator
+java.lang.NullPointerException
+	at generator.randomisers.ListRandomiser.setRandomiserInstance(ListRandomiser.java:92)
+	at generator.engine.file.Generator.generate(Generator.java:306)
+	at generator.gui.FileOutputPanel$15.construct(FileOutputPanel.java:808)
+	at generator.gui.SwingWorker$2.run(SwingWorker.java:127)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 09 Aug 2013 16:11:31,121:            ListRandomiser - setRandomiserInstance - CustomerId: could not locate file:c:\workspace\dgMaster\input\customer_id.txt
+java.io.FileNotFoundException: c:\workspace\dgMaster\input\customer_id.txt (The system cannot find the path specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at generator.misc.Utils.readFile(Utils.java:329)
+	at generator.randomisers.ListRandomiser.setRandomiserInstance(ListRandomiser.java:86)
+	at generator.engine.file.Generator.generate(Generator.java:306)
+	at generator.gui.FileOutputPanel$15.construct(FileOutputPanel.java:808)
+	at generator.gui.SwingWorker$2.run(SwingWorker.java:127)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 09 Aug 2013 16:11:31,131:                 Generator -             generate - Error while initialising a generator
+java.lang.NullPointerException
+	at generator.randomisers.ListRandomiser.setRandomiserInstance(ListRandomiser.java:92)
+	at generator.engine.file.Generator.generate(Generator.java:306)
+	at generator.gui.FileOutputPanel$15.construct(FileOutputPanel.java:808)
+	at generator.gui.SwingWorker$2.run(SwingWorker.java:127)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 09 Aug 2013 16:11:37,471:            ListRandomiser - setRandomiserInstance - CustomerId: could not locate file:c:\workspace\dgMaster\input\customer_id.txt
+java.io.FileNotFoundException: c:\workspace\dgMaster\input\customer_id.txt (The system cannot find the path specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at generator.misc.Utils.readFile(Utils.java:329)
+	at generator.randomisers.ListRandomiser.setRandomiserInstance(ListRandomiser.java:86)
+	at generator.engine.file.Generator.generate(Generator.java:306)
+	at generator.gui.FileOutputPanel$15.construct(FileOutputPanel.java:808)
+	at generator.gui.SwingWorker$2.run(SwingWorker.java:127)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 09 Aug 2013 16:11:37,471:                 Generator -             generate - Error while initialising a generator
+java.lang.NullPointerException
+	at generator.randomisers.ListRandomiser.setRandomiserInstance(ListRandomiser.java:92)
+	at generator.engine.file.Generator.generate(Generator.java:306)
+	at generator.gui.FileOutputPanel$15.construct(FileOutputPanel.java:808)
+	at generator.gui.SwingWorker$2.run(SwingWorker.java:127)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 09 Aug 2013 16:13:08,694:  RandomDefinitionsBuilder -          getElements - Error during parsing xml file
+java.io.FileNotFoundException: C:\workspace\dgMaster\DataBuild\conf\DBFileDefinitions.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at generator.misc.RandomDefinitionsBuilder.getElements(RandomDefinitionsBuilder.java:65)
+	at generator.misc.Utils.loadDBFileDefinitions(Utils.java:196)
+	at generator.misc.ApplicationContext.refreshDBDefinitions(ApplicationContext.java:148)
+	at generator.stagebuild.impl.ConfigFilesLoader.loadDBGeneratorConfigFiles(ConfigFilesLoader.java:66)
+	at generator.gui.MainForm.initFileConfiguration(MainForm.java:149)
+	at generator.gui.MainForm.btnChangeRootConfigActionPerformed(MainForm.java:688)
+	at generator.gui.MainForm.access$300(MainForm.java:59)
+	at generator.gui.MainForm$4.actionPerformed(MainForm.java:349)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$200(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+ERROR 09 Aug 2013 16:13:18,584:  RandomDefinitionsBuilder -          getElements - Error during parsing xml file
+java.io.FileNotFoundException: C:\workspace\dgMaster\DataBuild\conf\DBFileDefinitions.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at generator.misc.RandomDefinitionsBuilder.getElements(RandomDefinitionsBuilder.java:65)
+	at generator.misc.Utils.loadDBFileDefinitions(Utils.java:196)
+	at generator.misc.ApplicationContext.refreshDBDefinitions(ApplicationContext.java:148)
+	at generator.stagebuild.impl.ConfigFilesLoader.loadDBGeneratorConfigFiles(ConfigFilesLoader.java:66)
+	at generator.gui.MainForm.initFileConfiguration(MainForm.java:149)
+	at generator.gui.MainForm.btnChangeConfigActionPerformed(MainForm.java:672)
+	at generator.gui.MainForm.access$200(MainForm.java:59)
+	at generator.gui.MainForm$3.actionPerformed(MainForm.java:342)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$200(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+WARN  09 Aug 2013 16:13:20,474:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 16:13:20,474:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+INFO  09 Aug 2013 16:13:26,304:                 Generator -             generate - Time in millis:1100
+ERROR 09 Aug 2013 16:13:42,996: ReferentialPDFDiscreteRandomiser - setRandomiserInstance - TransactionType: could not locate file:c:\workspace\dgMaster\staging\stage1\stats\trx_type_all.txt
+java.io.FileNotFoundException: c:\workspace\dgMaster\staging\stage1\stats\trx_type_all.txt (The system cannot find the path specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at generator.misc.Utils.readFile(Utils.java:329)
+	at generator.randomisers.ReferentialPDFDiscreteRandomiser.setRandomiserInstance(ReferentialPDFDiscreteRandomiser.java:66)
+	at generator.engine.file.Generator.generate(Generator.java:306)
+	at generator.gui.FileOutputPanel$15.construct(FileOutputPanel.java:808)
+	at generator.gui.SwingWorker$2.run(SwingWorker.java:127)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 09 Aug 2013 16:13:42,996:                 Generator -             generate - Error while initialising a generator
+java.lang.NullPointerException
+	at generator.randomisers.ReferentialPDFDiscreteRandomiser.setRandomiserInstance(ReferentialPDFDiscreteRandomiser.java:72)
+	at generator.engine.file.Generator.generate(Generator.java:306)
+	at generator.gui.FileOutputPanel$15.construct(FileOutputPanel.java:808)
+	at generator.gui.SwingWorker$2.run(SwingWorker.java:127)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 09 Aug 2013 16:13:57,516: ReferentialPDFDiscreteRandomiser - setRandomiserInstance - TransactionType: could not locate file:c:\workspace\dgMaster\staging\stage1\stats\trx_type_all.txt
+java.io.FileNotFoundException: c:\workspace\dgMaster\staging\stage1\stats\trx_type_all.txt (The system cannot find the path specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at generator.misc.Utils.readFile(Utils.java:329)
+	at generator.randomisers.ReferentialPDFDiscreteRandomiser.setRandomiserInstance(ReferentialPDFDiscreteRandomiser.java:66)
+	at generator.engine.file.Generator.generate(Generator.java:306)
+	at generator.gui.FileOutputPanel$15.construct(FileOutputPanel.java:808)
+	at generator.gui.SwingWorker$2.run(SwingWorker.java:127)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 09 Aug 2013 16:13:57,516:                 Generator -             generate - Error while initialising a generator
+java.lang.NullPointerException
+	at generator.randomisers.ReferentialPDFDiscreteRandomiser.setRandomiserInstance(ReferentialPDFDiscreteRandomiser.java:72)
+	at generator.engine.file.Generator.generate(Generator.java:306)
+	at generator.gui.FileOutputPanel$15.construct(FileOutputPanel.java:808)
+	at generator.gui.SwingWorker$2.run(SwingWorker.java:127)
+	at java.lang.Thread.run(Unknown Source)
+INFO  09 Aug 2013 16:14:02,346:                 Generator -             generate - Time in millis:500
+INFO  09 Aug 2013 16:14:27,996:                 Generator -             generate - Time in millis:440
+WARN  09 Aug 2013 16:17:29,731:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 16:17:29,741:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  09 Aug 2013 16:17:29,741:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  09 Aug 2013 16:17:29,741:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  09 Aug 2013 16:17:35,291:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 16:17:35,301:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  09 Aug 2013 16:17:35,301:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  09 Aug 2013 16:17:35,301:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  09 Aug 2013 16:20:00,057:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 16:20:00,057:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  09 Aug 2013 16:20:00,057:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  09 Aug 2013 16:20:00,057:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  09 Aug 2013 16:20:10,037:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 16:20:12,797:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 16:20:22,888:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 16:20:22,888:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  09 Aug 2013 16:20:22,888:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  09 Aug 2013 16:20:22,888:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  09 Aug 2013 16:20:26,218:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 16:21:08,251:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 16:21:08,251:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  09 Aug 2013 16:21:49,845:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 16:21:49,845:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  09 Aug 2013 16:21:49,845:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  09 Aug 2013 16:21:49,855:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  09 Aug 2013 16:21:50,835:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 16:21:50,845:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  09 Aug 2013 16:21:50,845:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  09 Aug 2013 16:21:50,845:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  09 Aug 2013 16:22:00,566:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 16:22:01,516:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 16:22:01,516:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  09 Aug 2013 16:22:01,516:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  09 Aug 2013 16:22:01,516:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  09 Aug 2013 16:22:03,556:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 16:22:03,556:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+ERROR 09 Aug 2013 16:31:00,728:                  MainForm -     showErrorMessage - Error loading configuration files in C:\workspace\dgMaster\DataBuild\staging\stage1\conf
+generator.stagebuild.impl.StageBuilderConfigurationException: No suitable configuration files found in C:\workspace\dgMaster\DataBuild\staging\stage1\conf
+	at generator.stagebuild.impl.ConfigFilesLoader.loadFileGeneratorConfigFiles(ConfigFilesLoader.java:42)
+	at generator.gui.MainForm.initFileConfiguration(MainForm.java:143)
+	at generator.gui.MainForm.btnChangeRootConfigActionPerformed(MainForm.java:688)
+	at generator.gui.MainForm.access$300(MainForm.java:59)
+	at generator.gui.MainForm$4.actionPerformed(MainForm.java:349)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$200(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+ERROR 09 Aug 2013 16:31:03,068:  RandomDefinitionsBuilder -          getElements - Error during parsing xml file
+java.io.FileNotFoundException: C:\workspace\dgMaster\DataBuild\conf\DBFileDefinitions.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at generator.misc.RandomDefinitionsBuilder.getElements(RandomDefinitionsBuilder.java:65)
+	at generator.misc.Utils.loadDBFileDefinitions(Utils.java:196)
+	at generator.misc.ApplicationContext.refreshDBDefinitions(ApplicationContext.java:148)
+	at generator.stagebuild.impl.ConfigFilesLoader.loadDBGeneratorConfigFiles(ConfigFilesLoader.java:66)
+	at generator.gui.MainForm.initFileConfiguration(MainForm.java:149)
+	at generator.gui.MainForm.btnChangeRootConfigActionPerformed(MainForm.java:688)
+	at generator.gui.MainForm.access$300(MainForm.java:59)
+	at generator.gui.MainForm$4.actionPerformed(MainForm.java:349)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$200(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+ERROR 09 Aug 2013 16:31:37,500:                  MainForm -     showErrorMessage - Error loading configuration files in C:\workspace\dgMaster\DataBuild\staging\stage1\conf
+generator.stagebuild.impl.StageBuilderConfigurationException: No suitable configuration files found in C:\workspace\dgMaster\DataBuild\staging\stage1\conf
+	at generator.stagebuild.impl.ConfigFilesLoader.loadFileGeneratorConfigFiles(ConfigFilesLoader.java:42)
+	at generator.gui.MainForm.initFileConfiguration(MainForm.java:143)
+	at generator.gui.MainForm.btnChangeConfigActionPerformed(MainForm.java:672)
+	at generator.gui.MainForm.access$200(MainForm.java:59)
+	at generator.gui.MainForm$3.actionPerformed(MainForm.java:342)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$200(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+ERROR 09 Aug 2013 16:31:38,660:  RandomDefinitionsBuilder -          getElements - Error during parsing xml file
+java.io.FileNotFoundException: C:\workspace\dgMaster\DataBuild\conf\DBFileDefinitions.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at generator.misc.RandomDefinitionsBuilder.getElements(RandomDefinitionsBuilder.java:65)
+	at generator.misc.Utils.loadDBFileDefinitions(Utils.java:196)
+	at generator.misc.ApplicationContext.refreshDBDefinitions(ApplicationContext.java:148)
+	at generator.stagebuild.impl.ConfigFilesLoader.loadDBGeneratorConfigFiles(ConfigFilesLoader.java:66)
+	at generator.gui.MainForm.initFileConfiguration(MainForm.java:149)
+	at generator.gui.MainForm.btnChangeConfigActionPerformed(MainForm.java:672)
+	at generator.gui.MainForm.access$200(MainForm.java:59)
+	at generator.gui.MainForm$3.actionPerformed(MainForm.java:342)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$200(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+ERROR 09 Aug 2013 16:32:25,921:  RandomDefinitionsBuilder -          getElements - Error during parsing xml file
+java.io.FileNotFoundException: C:\workspace\dgMaster\DataBuild\conf\DBFileDefinitions.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at generator.misc.RandomDefinitionsBuilder.getElements(RandomDefinitionsBuilder.java:65)
+	at generator.misc.Utils.loadDBFileDefinitions(Utils.java:196)
+	at generator.misc.ApplicationContext.refreshDBDefinitions(ApplicationContext.java:148)
+	at generator.stagebuild.impl.ConfigFilesLoader.loadDBGeneratorConfigFiles(ConfigFilesLoader.java:66)
+	at generator.gui.MainForm.initFileConfiguration(MainForm.java:149)
+	at generator.gui.MainForm.btnChangeRootConfigActionPerformed(MainForm.java:688)
+	at generator.gui.MainForm.access$300(MainForm.java:59)
+	at generator.gui.MainForm$4.actionPerformed(MainForm.java:349)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$200(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+ERROR 09 Aug 2013 16:32:28,501:  RandomDefinitionsBuilder -          getElements - Error during parsing xml file
+java.io.FileNotFoundException: C:\workspace\dgMaster\DataBuild\conf\DBFileDefinitions.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at generator.misc.RandomDefinitionsBuilder.getElements(RandomDefinitionsBuilder.java:65)
+	at generator.misc.Utils.loadDBFileDefinitions(Utils.java:196)
+	at generator.misc.ApplicationContext.refreshDBDefinitions(ApplicationContext.java:148)
+	at generator.stagebuild.impl.ConfigFilesLoader.loadDBGeneratorConfigFiles(ConfigFilesLoader.java:66)
+	at generator.gui.MainForm.initFileConfiguration(MainForm.java:149)
+	at generator.gui.MainForm.btnChangeConfigActionPerformed(MainForm.java:672)
+	at generator.gui.MainForm.access$200(MainForm.java:59)
+	at generator.gui.MainForm$3.actionPerformed(MainForm.java:342)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$200(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+ERROR 09 Aug 2013 16:32:39,443:  RandomDefinitionsBuilder -          getElements - Error during parsing xml file
+java.io.FileNotFoundException: C:\workspace\dgMaster\DataBuild\conf\DBFileDefinitions.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at generator.misc.RandomDefinitionsBuilder.getElements(RandomDefinitionsBuilder.java:65)
+	at generator.misc.Utils.loadDBFileDefinitions(Utils.java:196)
+	at generator.misc.ApplicationContext.refreshDBDefinitions(ApplicationContext.java:148)
+	at generator.stagebuild.impl.ConfigFilesLoader.loadDBGeneratorConfigFiles(ConfigFilesLoader.java:66)
+	at generator.gui.MainForm.initFileConfiguration(MainForm.java:149)
+	at generator.gui.MainForm.btnChangeConfigActionPerformed(MainForm.java:672)
+	at generator.gui.MainForm.access$200(MainForm.java:59)
+	at generator.gui.MainForm$3.actionPerformed(MainForm.java:342)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$200(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+ERROR 09 Aug 2013 16:32:48,893:  RandomDefinitionsBuilder -          getElements - Error during parsing xml file
+java.io.FileNotFoundException: C:\workspace\dgMaster\DataBuild\conf\DBFileDefinitions.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at generator.misc.RandomDefinitionsBuilder.getElements(RandomDefinitionsBuilder.java:65)
+	at generator.misc.Utils.loadDBFileDefinitions(Utils.java:196)
+	at generator.misc.ApplicationContext.refreshDBDefinitions(ApplicationContext.java:148)
+	at generator.stagebuild.impl.ConfigFilesLoader.loadDBGeneratorConfigFiles(ConfigFilesLoader.java:66)
+	at generator.gui.MainForm.initFileConfiguration(MainForm.java:149)
+	at generator.gui.MainForm.btnChangeConfigActionPerformed(MainForm.java:672)
+	at generator.gui.MainForm.access$200(MainForm.java:59)
+	at generator.gui.MainForm$3.actionPerformed(MainForm.java:342)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$200(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+WARN  09 Aug 2013 16:32:54,643:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 16:32:54,643:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+ERROR 09 Aug 2013 16:37:27,522:  RandomDefinitionsBuilder -          getElements - Error during parsing xml file
+java.io.FileNotFoundException: C:\workspace\dgMaster\DataBuild\conf\DBFileDefinitions.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at generator.misc.RandomDefinitionsBuilder.getElements(RandomDefinitionsBuilder.java:65)
+	at generator.misc.Utils.loadDBFileDefinitions(Utils.java:196)
+	at generator.misc.ApplicationContext.refreshDBDefinitions(ApplicationContext.java:148)
+	at generator.stagebuild.impl.ConfigFilesLoader.loadDBGeneratorConfigFiles(ConfigFilesLoader.java:66)
+	at generator.gui.MainForm.initFileConfiguration(MainForm.java:149)
+	at generator.gui.MainForm.btnChangeRootConfigActionPerformed(MainForm.java:688)
+	at generator.gui.MainForm.access$300(MainForm.java:59)
+	at generator.gui.MainForm$4.actionPerformed(MainForm.java:349)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$200(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+ERROR 09 Aug 2013 16:37:40,215:  RandomDefinitionsBuilder -          getElements - Error during parsing xml file
+java.io.FileNotFoundException: C:\workspace\dgMaster\DataBuild\conf\DBFileDefinitions.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at generator.misc.RandomDefinitionsBuilder.getElements(RandomDefinitionsBuilder.java:65)
+	at generator.misc.Utils.loadDBFileDefinitions(Utils.java:196)
+	at generator.misc.ApplicationContext.refreshDBDefinitions(ApplicationContext.java:148)
+	at generator.stagebuild.impl.ConfigFilesLoader.loadDBGeneratorConfigFiles(ConfigFilesLoader.java:66)
+	at generator.gui.MainForm.initFileConfiguration(MainForm.java:149)
+	at generator.gui.MainForm.btnChangeConfigActionPerformed(MainForm.java:672)
+	at generator.gui.MainForm.access$200(MainForm.java:59)
+	at generator.gui.MainForm$3.actionPerformed(MainForm.java:342)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$200(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+WARN  09 Aug 2013 16:37:53,665:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 16:37:53,665:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+ERROR 09 Aug 2013 16:38:40,796:  RandomDefinitionsBuilder -          getElements - Error during parsing xml file
+java.io.FileNotFoundException: C:\workspace\dgMaster\DataBuild\conf\DBFileDefinitions.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at generator.misc.RandomDefinitionsBuilder.getElements(RandomDefinitionsBuilder.java:65)
+	at generator.misc.Utils.loadDBFileDefinitions(Utils.java:196)
+	at generator.misc.ApplicationContext.refreshDBDefinitions(ApplicationContext.java:148)
+	at generator.stagebuild.impl.ConfigFilesLoader.loadDBGeneratorConfigFiles(ConfigFilesLoader.java:66)
+	at generator.gui.MainForm.initFileConfiguration(MainForm.java:149)
+	at generator.gui.MainForm.btnChangeConfigActionPerformed(MainForm.java:672)
+	at generator.gui.MainForm.access$200(MainForm.java:59)
+	at generator.gui.MainForm$3.actionPerformed(MainForm.java:342)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$200(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+WARN  09 Aug 2013 16:38:42,165:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 16:38:42,165:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  09 Aug 2013 16:38:45,305:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 16:38:45,305:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  09 Aug 2013 16:38:49,205:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 16:57:18,265:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 16:57:18,265:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  09 Aug 2013 16:57:18,265:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  09 Aug 2013 16:57:18,265:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  09 Aug 2013 16:57:18,865:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 16:57:18,875:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  09 Aug 2013 16:57:19,355:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 16:57:19,355:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  09 Aug 2013 16:57:20,155:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 16:57:20,155:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  09 Aug 2013 16:57:20,575:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 16:57:20,575:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  09 Aug 2013 16:57:21,155:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 16:57:21,155:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  09 Aug 2013 16:58:24,737:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 16:58:24,747:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  09 Aug 2013 16:59:48,453:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 16:59:48,453:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  09 Aug 2013 16:59:48,943:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 16:59:48,943:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  09 Aug 2013 16:59:49,393:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 16:59:49,403:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  09 Aug 2013 16:59:49,943:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 16:59:49,943:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  09 Aug 2013 17:06:04,662:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 17:06:04,662:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  09 Aug 2013 17:06:04,672:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  09 Aug 2013 17:06:04,672:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  09 Aug 2013 17:06:07,082:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 17:06:07,082:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  09 Aug 2013 17:06:07,082:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  09 Aug 2013 17:06:07,082:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  09 Aug 2013 17:06:07,602:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 17:06:08,802:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 17:06:08,802:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  09 Aug 2013 17:06:09,172:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 17:06:09,172:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+INFO  09 Aug 2013 17:06:22,402:                 Generator -             generate - Time in millis:930
+WARN  09 Aug 2013 17:08:12,780:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 17:08:12,790:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  09 Aug 2013 17:09:22,952:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 17:09:31,814:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 17:09:31,814:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+INFO  09 Aug 2013 17:09:38,254:                 Generator -             generate - Time in millis:520
+WARN  09 Aug 2013 17:22:34,339:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 17:22:34,339:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+INFO  09 Aug 2013 17:23:30,033:                 Generator -             generate - Time in millis:502
+INFO  09 Aug 2013 17:23:48,713:                 Generator -             generate - Time in millis:580
+ERROR 09 Aug 2013 17:36:32,358:                  MainForm -     showErrorMessage - Error loading configuration files in ../test/configuration/
+generator.stagebuild.impl.StageBuilderConfigurationException: No suitable configuration files found in C:\workspace\dgMaster\DataBuild\staging\stage1\conf
+	at generator.stagebuild.impl.ConfigFilesLoader.loadFileGeneratorConfigFiles(ConfigFilesLoader.java:30)
+	at generator.gui.MainForm.initFileConfiguration(MainForm.java:143)
+	at generator.gui.MainForm.btnChangeRootConfigActionPerformed(MainForm.java:688)
+	at generator.gui.MainForm.access$300(MainForm.java:59)
+	at generator.gui.MainForm$4.actionPerformed(MainForm.java:349)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$200(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+ERROR 09 Aug 2013 17:36:33,378:  RandomDefinitionsBuilder -          getElements - Error during parsing xml file
+java.io.FileNotFoundException: C:\workspace\dgMaster\DataBuild\staging\stage1\conf\DBFileDefinitions.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at generator.misc.RandomDefinitionsBuilder.getElements(RandomDefinitionsBuilder.java:65)
+	at generator.misc.Utils.loadDBFileDefinitions(Utils.java:196)
+	at generator.misc.ApplicationContext.refreshDBDefinitions(ApplicationContext.java:148)
+	at generator.stagebuild.impl.ConfigFilesLoader.loadDBGeneratorConfigFiles(ConfigFilesLoader.java:66)
+	at generator.gui.MainForm.initFileConfiguration(MainForm.java:149)
+	at generator.gui.MainForm.btnChangeRootConfigActionPerformed(MainForm.java:688)
+	at generator.gui.MainForm.access$300(MainForm.java:59)
+	at generator.gui.MainForm$4.actionPerformed(MainForm.java:349)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$200(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+ERROR 09 Aug 2013 17:36:33,388:  RandomDefinitionsBuilder -          getElements - Error during parsing xml file
+java.io.FileNotFoundException: C:\workspace\dgMaster\DataBuild\staging\stage1\conf\DBDrivers.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at generator.misc.RandomDefinitionsBuilder.getElements(RandomDefinitionsBuilder.java:65)
+	at generator.misc.Utils.loadDBDriversInfo(Utils.java:210)
+	at generator.misc.ApplicationContext.refreshDriverInfo(ApplicationContext.java:153)
+	at generator.stagebuild.impl.ConfigFilesLoader.loadDBGeneratorConfigFiles(ConfigFilesLoader.java:73)
+	at generator.gui.MainForm.initFileConfiguration(MainForm.java:149)
+	at generator.gui.MainForm.btnChangeRootConfigActionPerformed(MainForm.java:688)
+	at generator.gui.MainForm.access$300(MainForm.java:59)
+	at generator.gui.MainForm$4.actionPerformed(MainForm.java:349)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$200(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+ERROR 09 Aug 2013 17:36:33,388:  RandomDefinitionsBuilder -          getElements - Error during parsing xml file
+java.io.FileNotFoundException: C:\workspace\dgMaster\DataBuild\staging\stage1\conf\JavaDBMappings.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at generator.misc.RandomDefinitionsBuilder.getElements(RandomDefinitionsBuilder.java:65)
+	at generator.misc.Utils.loadSQLJavaMappings(Utils.java:225)
+	at generator.misc.ApplicationContext.refreshSQLJavaMappings(ApplicationContext.java:158)
+	at generator.stagebuild.impl.ConfigFilesLoader.loadDBGeneratorConfigFiles(ConfigFilesLoader.java:80)
+	at generator.gui.MainForm.initFileConfiguration(MainForm.java:149)
+	at generator.gui.MainForm.btnChangeRootConfigActionPerformed(MainForm.java:688)
+	at generator.gui.MainForm.access$300(MainForm.java:59)
+	at generator.gui.MainForm$4.actionPerformed(MainForm.java:349)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$200(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+WARN  09 Aug 2013 18:05:20,867:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 18:05:20,877:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  09 Aug 2013 18:06:17,981:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 18:06:17,981:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  09 Aug 2013 18:06:17,981:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  09 Aug 2013 18:06:17,981:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  09 Aug 2013 18:06:20,401:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-type
+WARN  09 Aug 2013 18:06:20,401:                  MainForm - treeDataBrowserValueChanged - Selected node was not a randomiser-instance
+WARN  09 Aug 2013 18:06:20,401:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition
+WARN  09 Aug 2013 18:06:20,401:                  MainForm - treeDataBrowserValueChanged - Selected node was not a file text definition

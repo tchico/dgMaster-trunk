@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datafile-definitions>
+	<File-output-definition delimiter="|" filename="CARDS" name="CARDS" numOfRecs="1">
+	<description/> 
+	<data-item nrname="CardId"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="CardSourceRefId"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="CardType"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="IssuingBankCode"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="IssueDate"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="ExpiryDate"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="SequenceNumber"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="LanguagePreferenceCode"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="CardStatus"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="CardStatusChangedTimestamp"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="PasswordChangedTimestamp"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="CardHolderName"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="CardHolderTitle"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="CardHolderFirstName"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="CardHolderLastName"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="LimitClass"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="LimitClassChangedTimestamp"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="RegistrationChangedTimestamp"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="CardLimit"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="CardBalance"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="CurrencyCode"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	<data-item nrname="OrgUnitCode"			 alignment="1" encloseChar="" randomiser-instance="Empty" width="-1"/>
+	</File-output-definition>
+</datafile-definitions> 

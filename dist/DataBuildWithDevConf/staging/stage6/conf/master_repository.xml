@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><randomiser-instances>
+  <randomiser-instance name="branch" randomiser-type="GenericMemoryAccessRandomiser">
+    <description/>
+    <property name="stageReference" value="branch"/>
+    <property name="columnRef" value="BranchId"/>
+    <property name="UseParentRef" value="true"/>
+  </randomiser-instance>  
+  
+  <randomiser-instance name="customer" randomiser-type="GenericMemoryAccessRandomiser">
+    <description/>
+    <property name="stageReference" value="customer"/>
+    <property name="columnRef" value="cus"/>
+    <property name="UseParentRef" value="true"/>
+  </randomiser-instance>  
+  
+  <randomiser-instance name="account" randomiser-type="GenericMemoryAccessRandomiser">
+    <description/>
+    <property name="stageReference" value="account1"/>
+    <property name="columnRef" value="ac"/>
+    <property name="UseParentRef" value="true"/>
+  </randomiser-instance>  
+  
+  <randomiser-instance name="card" randomiser-type="GenericMemoryAccessRandomiser">
+    <description/>
+    <property name="stageReference" value="card1"/>
+    <property name="columnRef" value="card"/>
+    <property name="UseParentRef" value="true"/>
+  </randomiser-instance>  
+  
+ <randomiser-instance name="amount" randomiser-type="GenericStageDataContextRandomiser">
+ 	<property name="sdcontextReference" value="int"/>
+ 	<property name="preFix" value="€"/>
+ 	<property name="postFix" value=""/>
+  </randomiser-instance>
+  
+   <randomiser-instance name="RunDateTest" randomiser-type="StageRunDateSequencer">
+    <description>Test</description>
+    <property name="dateFormat" value="yyyyMMddHHmmSS"/>
+  </randomiser-instance>
+  
+   <randomiser-instance name="StageAmount" randomiser-type="StageAmountRandomiser">
+    <description></description>
+    <property name="keyStage" value="customer"/>
+    <property name="stage0" value="customer"/>
+    <property name="stage0column0" value="type"/> 
+    <property name="stage0value0" value="corp"/>
+    <property name="targetRandomiser0" value="staticValue1"/> 
+  </randomiser-instance>
+  
+    <randomiser-instance name="staticValue1" randomiser-type="NumIntegerRandomiser">
+    <description/>
+    <property name="rangesNum" value="1"/>
+    <property name="fromField0" value="10"/>
+    <property name="toField0" value="11"/>
+    <property name="percentField0" value="100"/>
+    <property name="nullField" value="0"/>
+  </randomiser-instance>
+  
+  
+    
+  
+  
+</randomiser-instances>

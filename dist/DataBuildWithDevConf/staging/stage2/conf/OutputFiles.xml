@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datafile-definitions>
+  <File-output-definition delimiter="," filename="output\test_2.txt" name="STAGE_2" numOfRecs="100000">
+    <description/>
+   <data-item alignment="1" encloseChar="" order="-1" randomiser-instance="CustomerId" width="-1"/>
+    <!--   <data-item alignment="1" encloseChar="" order="-1" randomiser-instance="AccountId" width="-1"/>
+    <data-item alignment="1" encloseChar="" order="0" randomiser-instance="InMemoryLookUp2" width="-1"/>
+	 <data-item alignment="1" encloseChar="" order="-1" randomiser-instance="InMemoryLookUp" width="-1"/> -->
+	  
+	
+  </File-output-definition>
+</datafile-definitions>

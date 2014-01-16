@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><randomiser-instances>
+  <randomiser-instance name="CustomerId" randomiser-type="ListitemsGenerator">
+    <description/>
+    <property name="inputSource" value="file"/>
+    <property name="inputFile" value="c:\workspace\dgMaster\dist\DataBuildWithDevConf\staging\stage1\input\customer_id.txt"/>
+    <property name="nullField" value="0"/>
+  </randomiser-instance>
+  <randomiser-instance name="AccountId" randomiser-type="ListitemsGenerator">
+    <description/>
+    <property name="inputSource" value="file"/>
+    <property name="inputFile" value="c:\workspace\dgMaster\dist\DataBuildWithDevConf\staging\stage1\input\account_type.txt"/>
+    <property name="nullField" value="0"/>
+  </randomiser-instance>  
+  
+  <randomiser-instance name="InMemoryLookUp" randomiser-type="GenericMemoryAccessRandomiser">
+    <description/>
+    <property name="stageReference" value="branch"/>
+    <property name="columnRef" value="BranchId"/>
+    <property name="UseParentRef" value="false"/>
+  </randomiser-instance>  
+  
+  <randomiser-instance name="InMemoryLookUp2" randomiser-type="GenericMemoryAccessRandomiser">
+    <description/>
+    <property name="stageReference" value="branch"/>
+    <property name="columnRef" value="IPDistrub"/>
+    <property name="UseParentRef" value="true"/>
+</randomiser-instance>  
+  
+</randomiser-instances>

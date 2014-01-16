@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<database-scenario>
+  <db-config>
+    <scenario value="db_test1"/>
+    <description/>
+    <cycles value="1"/>
+    <inTransaction value="false"/>
+    <provider value="Oracle thin"/>
+    <url value="jdbc:oracle:thin:@localhost:1521:xe"/>
+    <user value="base612"/>
+    <password value="base612"/>
+  </db-config>
+  <table name="JFRE_DGMASTER">
+    <fields>
+      <field name="ID" randomiser-instance=""/>
+      <field name="NUM1" randomiser-instance=""/>
+      <field name="NUM2" randomiser-instance=""/>
+      <field name="VARC1" randomiser-instance="AccountType"/>
+    </fields>
+    <foreign-keys/>
+  </table>
+</database-scenario>

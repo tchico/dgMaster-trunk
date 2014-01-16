@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><randomiser-instances>
+  <randomiser-instance name="CustomerId" randomiser-type="ListitemsGenerator">
+    <description/>
+    <property name="inputSource" value="file"/>
+    <property name="inputFile" value="c:\workspace\dgMaster\dist\DataBuild\staging\stage1\input\customer_id.txt"/>
+    <property name="nullField" value="0"/>
+  </randomiser-instance>
+  <randomiser-instance name="AccountType" randomiser-type="ListitemsGenerator">
+    <description/>
+    <property name="inputSource" value="file"/>
+    <property name="inputFile" value="c:\workspace\dgMaster\dist\DataBuild\staging\stage1\input\account_type.txt"/>
+    <property name="nullField" value="0"/>
+  </randomiser-instance>  
+  <randomiser-instance name="ac" randomiser-type="GenericStageDataContextRandomiser">
+ 	<property name="sdcontextReference" value="long"/>
+ 	<property name="preFix" value="Acct"/>
+ 	<property name="postFix" value=""/>
+  </randomiser-instance>
+  
+     <randomiser-instance name="StageAmount" randomiser-type="StageAmountRandomiser">
+    <description></description>
+    <property name="keyStage" value="customer"/>
+    <property name="stage0" value="customer"/>
+    <property name="stage0column0" value="type"/> 
+    <property name="stage0value0" value="corp"/>
+    <property name="targetRandomiser0" value="staticValue1"/> 
+  </randomiser-instance>
+  
+   <randomiser-instance name="staticValue1" randomiser-type="NumIntegerRandomiser">
+    <description/>
+    <property name="rangesNum" value="1"/>
+    <property name="fromField0" value="4"/>
+    <property name="toField0" value="5"/>
+    <property name="percentField0" value="100"/>
+    <property name="nullField" value="0"/>
+  </randomiser-instance>
+  
+</randomiser-instances>

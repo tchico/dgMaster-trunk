@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datafile-definitions>
+  <File-output-definition delimiter="," filename="output/test_1" name="STAGE_1" numOfRecs="200">
+    <description/>
+   <!--     <data-item alignment="1" encloseChar="" order="-1" randomiser-instance="AccountId" width="-1"/>
+      <data-item alignment="1" encloseChar="" order="9" randomiser-instance="ListSelectGenTest2FromFile" width="-1"/>
+    <data-item alignment="1" encloseChar="" order="-1" randomiser-instance="ListSelectGenTest" width="-1"/>
+    <data-item alignment="1" encloseChar="" order="-1" randomiser-instance="CustomerId" width="-1"/>
+    <data-item alignment="1" encloseChar="" order="-1" randomiser-instance="ListItemGenTest" width="-1"/>
+    <data-item alignment="1" encloseChar="" order="-1" randomiser-instance="EmailRandomiserTest" width="-1"/>
+    <data-item alignment="1" encloseChar="" order="-1" randomiser-instance="TimeStampTest" width="-1"/>
+    <data-item alignment="1" encloseChar="" order="-1" randomiser-instance="SQLDateTest" width="-1"/>
+    <data-item alignment="1" encloseChar="" order="-1" randomiser-instance="Jan12013" width="-1"/>
+   data-item alignment="1" encloseChar="" order="-1" randomiser-instance="Partial" width="-1"/>
+   <data-item alignment="1" encloseChar="" order="-1" randomiser-instance="PGSDCTest" width="-1"/>
+   <data-item alignment="1" encloseChar="" order="1" randomiser-instance="PGSDCTest2" width="-1"/>
+   <data-item alignment="1" encloseChar="" order="2" randomiser-instance="PGSDCTest3" width="-1"/>
+   <data-item alignment="1" encloseChar="" order="3" randomiser-instance="PGSDCTest4" width="-1"/>
+      <data-item alignment="1" encloseChar="" order="5" randomiser-instance="LongTest" width="-1"/>
+       <data-item alignment="1" encloseChar="" order="6" randomiser-instance="RunDateTest" width="-1"/>
+       <data-item alignment="1" encloseChar="" order="0" randomiser-instance="PersonTitle" width="-1"/>
+    
+       <data-item alignment="1" encloseChar="" order="1" randomiser-instance="MultipleRand" width="-1"/>-->
+       
+      
+        <data-item alignment="1" encloseChar="" order="0" randomiser-instance="CondRand" width="-1"/>
+        	<data-item alignment="1" encloseChar="" order="2" randomiser-instance="BranchId" width="-1"/>
+       <!-- <data-item alignment="1" encloseChar="" order="-1" randomiser-instance="RandNum" width="-1"/>
+         <data-item alignment="1" encloseChar="" order="1" randomiser-instance="CrCustomerSourceRefId" width="-1"/>
+          
+              <data-item alignment="1" encloseChar="" order="3" randomiser-instance="AccountIdTest" width="-1"/>
+          
+            <data-item alignment="1" encloseChar="" order="-1" randomiser-instance="CustomerSegment" width="-1"/> -->
+         
+          <!--  <data-item alignment="1" encloseChar="" order="15" randomiser-instance="IPDistrub" width="-1"/> -->
+          
+      
+      
+   
+  </File-output-definition>
+</datafile-definitions>

@@ -1,0 +1,246 @@
+AW|Aruba|||Y|N|N||||N|N||UN||0|0
+AD|Andorra|||N|Y|N||||Y|N|Europe|EU||0|0
+AQ|Antarctica||Y|N|N|N||||N|Y||UN||0|0
+AG|Antigua and Barbuda|||Y|N|N||||N|Y||UN||0|0
+AE|United Arab Emirates|||N|N|N||||N|Y|Middle East|ME||0|0
+AF|Afghanistan|||Y|N|N|Y|||N|Y||UN||1|1
+AI|Anguilla|||N|N|N||||N|Y||UN||0|0
+AL|Albania||Y|Y|Y|N||||Y|N|Europe|EU||0|0
+AM|Armenia|||Y|Y|N||||Y|Y|Europe|EU||0|0
+AN|Netherlands Antilles||Y|N|N|N||||N|N||UN||0|0
+AO|Angola|||N|Y|N||||N|N|Africa|AF||0|0
+AR|Argentina|||N|Y|N||||N|Y|South America|SA||0|0
+AS|American Samoa|||Y|N|N||||N|N||UN||0|0
+AT|Austria|||N|N|N||||N|N||UN||0|0
+AU|Australia|||N|N|N||||N|Y|Asia - Pacific|AP||0|0
+AZ|Azerbaijan|||Y|Y|N||||Y|N|Europe|EU||0|0
+BA|Bosnia and Herzegovina||Y|N|N|N||||Y|N|Europe|EU||0|0
+BB|Barbados|||Y|Y|N||||N|Y||UN||0|0
+BD|Bangladesh||Y|Y|N|N||||N|Y|Asia - Pacific|AP||0|0
+BE|Belgium|||N|N|N||||Y|N|Europe|EU||0|0
+BF|Burkina Faso|||N|Y|N||||N|N||UN||0|0
+BG|Bulgaria|||Y|N|N||||Y|Y|Europe|EU||0|0
+BH|Bahrain|||N|N|N||||N|N|Middle East|ME||0|0
+BI|Burundi|||Y|N|N||||N|N||UN||0|0
+BJ|Benin|||Y|Y|N||||N|N||UN||0|0
+BM|Bermuda||Y|Y|N|N||||N|N||UN||0|0
+BN|Brunei Darussalam|||N|N|N||||N|N|Asia - Pacific|AP||0|0
+BO|Bolivia|||Y|N|N||||N|Y||UN||0|0
+BR|Brazil|||N|N|N|Y|||N|N|South America|SA||0|0
+BS|Bahamas|||N|N|N||||N|N|North America|NA||0|0
+BT|Bhutan||Y|Y|N|N||||N|N||UN||0|0
+BV|Bouvet Island|||N|N|N||||N|N||UN||0|0
+BW|Botswana|||N|N|N||||N|Y||UN||0|0
+BY|Belarus|||N|Y|N|Y|||Y|N|Europe|EU||0|0
+BZ|Belize|||N|Y|N||||N|N||UN||0|0
+CA|Canada|||N|N|N||||N|N||UN||0|0
+KY|Cayman Islands|||Y|N|N||||N|N|North America|NA||0|0
+CC|Cocos(Keeling) Islands|||N|N|N||||N|N||UN||0|0
+CF|Central African Republic|||Y|N|N||||N|N||UN||0|0
+CG|Congo||Y|N|N|N||||N|N||UN||0|0
+CD|Congo - The Democratic Republic of the|||Y|N|N||||N|N||UN||0|0
+CH|Switzerland|||N|Y|N|Y|||Y|N|Europe|EU||0|0
+CI|Cote dIvoire|||Y|N|N||||N|Y|Africa|AF||0|0
+CK|Cook Islands|||Y|N|N||||N|N||UN||0|0
+CL|Chile|||Y|N|N||||N|N|South America|SA||0|0
+CM|Cameroon|||Y|N|N||||N|N||UN||0|0
+CN|China|||Y|N|N||||N|N|Asia - Pacific|AP||0|0
+CO|Colombia|||N|N|N||||N|N||UN||0|0
+CR|Costa Rica|||N|N|N||||N|N||UN||0|0
+CU|Cuba|||N|N|N||||N|Y||UN||0|0
+CV|Cape Verde|||N|N|N||||N|Y||UN||0|0
+CX|Christmas Island||Y|N|N|N||||N|N||UN||0|0
+CY|Cyprus|||Y|Y|N||||Y|Y|Europe|EU||0|0
+CZ|Czech Republic|||N|N|N||||Y|N|Europe|EU||0|0
+CS|Serbia and Montenegro|||Y|N|N||||Y|Y|Europe|EU||0|0
+DE|Germany|||N|Y|N||||Y|N|Europe|EU||0|0
+DJ|Djibouti|||N|N|N||||N|N||UN||0|0
+DK|Denmark||Y|Y|Y|N||||Y|N|Europe|EU||0|0
+DM|Dominica|||N|N|N||||N|N||UN||0|0
+DO|Dominican Republic|||N|N|N||||N|N||UN||0|0
+DZ|Algeria||Y|Y|N|N||||N|Y||UN||0|0
+EC|Ecuador|||N|Y|N||||N|N||UN||0|0
+EE|Estonia|||N|Y|N||||Y|N|Europe|EU||0|0
+EG|Egypt||Y|N|N|N|Y|||N|N|Middle East|ME||0|0
+EH|Western Sahara|||N|N|N|Y|||N|Y||UN||0|0
+ER|Eritrea|||N|N|N||||N|Y||UN||0|0
+ES|Spain|||N|Y|N||||Y|Y|Europe|EU||0|0
+ET|Ethiopia|||Y|N|N||||N|Y||UN||0|0
+FI|Finland|||Y|Y|N||||Y|Y|Europe|EU||0|0
+FJ|Fiji|||N|Y|N||||N|N||UN||0|0
+FK|Falkland Islands(Malvinas)|||N|Y|N||||N|N||UN||0|0
+FM|Micronesia|||Y|N|N||||N|Y||UN||0|0
+FO|Faroe Islands|||N|Y|N||||N|Y||UN||0|0
+FR|France||Y|N|N|N||||Y|N|Europe|EU||0|0
+GA|Gabon||Y|N|N|N||||N|N||UN||0|0
+GB|United Kingdom|||N|N|N||||Y|N|Europe|EU||0|0
+GD|Grenada|||N|Y|N||||N|N||UN||0|0
+GE|Georgia|||Y|N|N||||Y|N|Europe|EU||0|0
+GF|French Guiana|||Y|N|N||||N|N||UN||0|0
+GH|Ghana|||Y|N|N||||N|Y||UN||0|0
+GI|Gibraltar|||N|N|N||||Y|N|Europe|EU||0|0
+GL|Greenland|||N|N|N||||Y|N|Europe|EU||0|0
+GM|Gambia|||N|N|N||||N|N||UN||0|0
+GP|Guadeloupe|||Y|Y|N||||N|N||UN||0|0
+GQ|Equatorial Guinea||Y|N|N|N||||N|Y||UN||0|0
+GR|Greece||Y|N|N|N||||Y|N|Europe|EU||0|0
+GS|South Georgia and the South Sandwich Islands||Y|N|Y|N||||N|Y||UN||0|0
+GT|Guatemala|||N|N|N||||N|Y||UN||0|0
+GU|Guam||Y|N|N|N||||N|Y||UN||0|0
+GN|Guinea|||N|N|N||||N|Y||UN||0|0
+GW|Guinea-Bissau|||Y|N|N||||N|N||UN||0|0
+GY|Guyana|||N|N|N||||N|Y||UN||0|0
+HK|Hong Kong|||N|N|N||||N|Y|Asia - Pacific|AP||0|0
+HM|Heard Island and McDonald Islands|||N|N|N||||N|N||UN||0|0
+HN|Honduras|||Y|Y|N||||N|Y||UN||0|0
+HR|Croatia||Y|N|N|N||||Y|N|Europe|EU||0|0
+HT|Haiti|||N|Y|N||||N|N||UN||0|0
+HU|Hungary|||N|N|N||||Y|N|Europe|EU||0|0
+ID|Indonesia|||N|Y|N||||N|N|Asia - Pacific|AP||0|0
+IE|Ireland||Y|N|N|N||||Y|N|Europe|EU||0|0
+IL|Israel|||N|N|N||||N|Y|Middle East|ME||0|0
+IN|India|||N|N|N||||N|Y|Asia - Pacific|AP||0|0
+IO|British Indian Ocean Territory|||Y|N|N||||N|N||UN||0|0
+IQ|Iraq||Y|Y|Y|N||||N|N||UN||0|0
+IR|Iran|||Y|N|N||||N|N|Middle East|ME||0|0
+IS|Iceland|||Y|N|N||||Y|N|Europe|EU||0|0
+IT|Italy||Y|N|Y|N||||Y|N|Europe|EU||0|0
+JM|Jamaica|||N|N|N||||N|N||UN||0|0
+JO|Jordan|||Y|Y|N||||N|Y|Middle East|ME||0|0
+JP|Japan|||Y|N|N||||N|Y|Asia - Pacific|AP||0|0
+KE|Kenya|||N|Y|N||||N|Y||UN||0|0
+KG|Kyrgyzstan|||N|Y|N||||N|Y||UN||0|0
+KH|Cambodia||Y|N|N|N||||N|N||UN||0|0
+KI|Kiribati|||N|N|N||||N|N||UN||0|0
+KM|Comoros|||Y|N|N||||N|Y||UN||0|0
+KN|Saint Kitts and Nevis|||Y|Y|N||||N|N||UN||0|0
+LC|Saint Lucia|||N|N|N||||N|N||UN||0|0
+KP|North Korea||Y|Y|N|N|Y|||N|N||UN||0|0
+KR|Korea Republic of|||N|Y|N||||N|N|Asia - Pacific|AP||0|0
+KW|Kuwait|||N|N|N||||N|Y||UN||0|0
+KZ|Kazakhstan|||N|N|N||||Y|N|Europe|EU||0|0
+LB|Lebanon|||Y|N|N||||N|N|Middle East|ME||0|0
+LA|Lao Peoples Democratic Republic|||Y|N|N||||N|N||UN||0|0
+LI|Liechtenstein|||N|N|N||||Y|Y|Europe|EU||0|0
+LK|Sri Lanka||Y|Y|N|N||||N|N|Asia - Pacific|AP||0|0
+LR|Liberia||Y|Y|Y|N|Y|||N|N||UN||0|0
+LS|Lesotho|||N|N|N||||N|N||UN||0|0
+LT|Lithuania|||N|Y|N||||Y|N|Europe|EU||0|0
+LU|Luxembourg|||Y|N|N|Y|||Y|N|Europe|EU||0|0
+LV|Latvia|||Y|N|N|Y|||Y|N|Europe|EU||0|0
+LY|Libya|||N|N|N||||N|N||UN||0|0
+MA|Morocco|||N|N|N||||N|N||UN||0|0
+MC|Monaco|||N|N|N||||Y|N|Europe|EU||0|0
+MD|Moldova|||N|N|N||||Y|N|Europe|EU||0|0
+MG|Madagascar|||N|N|N||||N|Y||UN||0|0
+MH|Marshall Islands|||Y|N|N||||N|N||UN||0|0
+MK|Macedonia|||N|N|N||||Y|N|Europe|EU||0|0
+ML|Mali|||N|N|N|Y|||N|N||UN||0|0
+MM|Myanmar||Y|Y|N|N||||N|Y||UN||0|0
+MN|Mongolia|||Y|Y|N||||N|Y||UN||0|0
+MO|Macao|||N|N|N||||N|N|Asia - Pacific|AP||0|0
+MP|Northern Marina Islands|||N|N|N||||N|Y||UN||0|0
+MQ|Martinique|||N|N|N||||N|Y||UN||0|0
+MR|Mauritania|||N|N|N||||N|N||UN||0|0
+MS|Montserrat|||N|Y|N||||N|N||UN||0|0
+MT|Malta|||Y|Y|N||||Y|N|Europe|EU||0|0
+MU|Mauritius||Y|N|Y|N||||N|N|Asia - Pacific|AP||0|0
+MV|Madives|||N|N|N||||N|N|Asia - Pacific|AP||0|0
+MW|Malawi|||Y|N|N||||N|Y||UN||0|0
+MX|Mexico|||N|N|N||||N|Y|South America|SA||0|0
+MY|Malaysia|||N|N|N||||N|N|Asia - Pacific|AP||0|0
+MZ|Mozambique||Y|Y|N|N||||N|Y||UN||0|0
+NA|Namibia|||N|N|N|Y|||N|N|Africa|AF||0|0
+NC|New Caledonia||Y|N|N|N||||N|N||UN||0|0
+NE|Niger|||Y|N|N||||N|N||UN||0|0
+NF|Norfolk Island|||N|N|N||||N|N||UN||0|0
+NG|Nigeria|||Y|N|N||||N|N||UN||0|0
+NI|Nicaragua|||N|N|N||||N|N||UN||0|0
+NL|Netherlands|||Y|Y|N|Y|||Y|N|Europe|EU||0|0
+NO|Norway|||Y|Y|N||||Y|N|Europe|EU||0|0
+NP|Nepal|||Y|Y|N||||N|Y||UN||0|0
+NR|Nauru|||N|N|N||||N|N||UN||0|0
+NU|Niue|||N|N|N||||N|Y||UN||0|0
+NZ|New Zealand||Y|Y|N|N||||N|N|Asia - Pacific|AP||0|0
+OM|Oman|||Y|N|N||||N|N|Middle East|ME||0|0
+PA|Panama||Y|Y|N|N||||N|N|South America|SA||0|0
+PE|Peru|||N|Y|N||||N|N||UN||0|0
+PF|French Polynesia|||Y|N|N||||N|Y||UN||0|0
+PG|Papua New Guinea|||Y|Y|N||||N|N||UN||0|0
+PH|Philippines|||Y|N|N||||N|Y|Asia - Pacific|AP||0|0
+PK|Pakistan|||N|N|N||||N|N|Asia - Pacific|AP||0|0
+PL|Poland|||Y|Y|N||||Y|Y|Europe|EU||0|0
+PM|Saint Pierre And Miquelon|||N|N|N||||N|N||UN||0|0
+PN|Pitcairn|||N|Y|N||||N|N||UN||0|0
+PR|Puerto Rico||Y|N|N|N||||N|Y||UN||0|0
+PT|Portugal||Y|N|N|N||||Y|Y|Europe|EU||0|0
+PW|Palau||Y|Y|N|N||||N|N||UN||0|0
+PS|Palestinian Territory Occupied|||N|Y|N||||N|N|Middle East|ME||0|0
+PY|Paraguay||Y|Y|N|N||||N|N||UN||0|0
+QA|Qatar||Y|Y|Y|N||||N|N|Middle East|ME||0|0
+RE|Reunion|||Y|N|N|Y|||N|N||UN||0|0
+RO|Romania|||Y|N|N||||Y|N|Europe|EU||0|0
+RU|Russia|||Y|N|N||||Y|N|Europe|EU||0|0
+RW|Rwanda|||N|N|N||||N|N||UN||0|0
+SA|Saudi Arabia|||Y|Y|N||||N|N|Middle East|ME||0|0
+SB|Solomon Islands|||N|N|N||||N|N||UN||0|0
+SC|Seychelles|||N|N|N||||N|Y||UN||0|0
+SD|Sudan|||N|N|N||||N|Y||UN||0|0
+SE|Sweden|||N|N|N||||Y|Y|Europe|EU||0|0
+SG|Singapore|||N|N|N||||N|N|Asia - Pacific|AP||0|0
+SH|Saint Helena|||N|Y|N||||N|N||UN||0|0
+SI|Slovenia|||Y|N|N||||Y|Y|Europe|EU||0|0
+SJ|Svalbard and Jan Mayen|||N|Y|N||||N|N||UN||0|0
+SK|Slovakia|||Y|N|N||||Y|N|Europe|EU||0|0
+SL|Sierra Leone|||Y|N|N||||N|Y||UN||0|0
+SM|San Marino|||N|N|N||||Y|N|Europe|EU||0|0
+SN|Senegal|||Y|N|N||||N|N||UN||0|0
+SO|Somalia|||N|N|N||||N|Y||UN||0|0
+SR|Suriname||Y|Y|N|N||||N|N||UN||0|0
+ST|Sao Tome and Principe||Y|N|N|N||||N|N||UN||0|0
+SV|El Salvador|||N|N|N||||N|N||UN||0|0
+SY|Syria|||Y|N|N||||N|Y||UN||0|0
+SZ|Swaziland|||Y|N|N||||N|N||UN||0|0
+TC|Turks and Caicos Islands||Y|Y|N|N|Y|||N|N||UN||0|0
+TD|Chad||Y|Y|N|N||||N|N||UN||0|0
+TF|French Southern Territories|||Y|N|N||||N|N||UN||0|0
+TG|Togo||Y|N|N|N||||N|N||UN||0|0
+TH|Thailand||Y|N|N|N||||N|N|Asia - Pacific|AP||0|0
+TL|Timoe-Leste|||N|N|N||||N|N||UN||0|0
+TJ|Tajikistan|||N|N|N||||N|N||UN||0|0
+TK|Tokelau|||N|N|N||||N|Y||UN||0|0
+TM|Turkmenistan|||N|N|N||||N|N||UN||0|0
+TN|Tunisia||Y|N|N|N||||N|N||UN||0|0
+TO|Tonga||Y|N|N|N||||N|N||UN||0|0
+TR|Turkey|||N|N|N||||Y|N|Europe|EU||0|0
+TT|Trinidad and Tobago|||N|N|N||||N|N||UN||0|0
+TV|Tuvalu|||N|N|N||||N|N||UN||0|0
+TW|Taiwan|||N|N|N||||N|N|Asia - Pacific|AP||0|0
+TZ|Tanzania||Y|Y|Y|N||||N|N||UN||0|0
+UA|Ukraine||Y|N|Y|N||||Y|N|Europe|EU||0|0
+UG|Uganda|||N|Y|N||||N|N|Africa|AF||0|0
+UM|United States Minor Outlying Islands|||Y|N|N||||N|N||UN||0|0
+US|United States|||N|N|N||||N|N|North America|NA||0|0
+UY|Uruguay|||N|Y|N||||N|N|South America|SA||0|0
+UZ|Uzbekistan|||N|N|N||||N|N||UN||0|0
+VA|Vatican|||N|Y|N||||Y|N|Europe|EU||0|0
+VC|Saint Vincent and the Grenadines|||Y|N|N||||N|Y||UN||0|0
+VE|Venezuela|||Y|N|N||||N|N|South America|SA||0|0
+VG|British Virgin Islands|||N|N|N|Y|||N|N||UN||0|0
+VI|U.S. Virgin Islands|||N|Y|N||||N|N||UN||0|0
+VN|Vietnam|||N|N|N||||N|Y|Asia - Pacific|AP||0|0
+VU|Vanuatu|||Y|N|N||||N|N||UN||0|0
+WF|Wallis and Futuna|||Y|Y|N||||N|N||UN||0|0
+WS|Samoa|||N|N|N||||N|Y||UN||0|0
+YE|Yemen|||N|N|N||||N|N||UN||0|0
+YT|Mayotte|||Y|Y|N||||N|N||UN||0|0
+ZA|South Africa|||N|N|N||||N|Y|Africa|AF||0|0
+ZM|Zambia|||Y|N|N||||N|N||UN||0|0
+ZR|Zaire|||Y|N|N||||N|N||UN||0|0
+ZW|Zimbabwe|||N|N|N||||N|Y||UN||0|0
+GG|GUERNSEY|||N|N|N||||N|N||UN||0|0
+IM|ISLE OF MAN|||Y|N|N||||N|N||UN||0|0
+JE|JERSEY|||N|N|N||||N|N||UN||0|0
+FX|FRANCE, METROPOLITAN||Y||Y|||||||Europe|EU||0|0
+TP|EAST TIMOR|||Y||||||||Asia - Pacific|AP||0|0
+YU|YUGOSLAVIA|||||||||||Europe|EU||0|0

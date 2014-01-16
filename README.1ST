@@ -1,0 +1,10 @@
+Thank you for using dgMaster :)
+
+In order to run dgMaster:
+java -jar dist/dgMaster.jar
+
+
+Use Java 6 to compile and run.
+
+For more information, please take a look at the website here:
+http://dgmaster.sourceforge.net/

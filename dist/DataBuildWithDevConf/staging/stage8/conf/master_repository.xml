@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><randomiser-instances>
+  <randomiser-instance name="CustomerId" randomiser-type="ListitemsGenerator">
+    <description/>
+    <property name="inputSource" value="file"/>
+    <property name="inputFile" value="c:\workspace\dgMaster\dist\DataBuild\staging\stage1\input\customer_id.txt"/>
+    <property name="nullField" value="0"/>
+  </randomiser-instance>
+  <randomiser-instance name="AccountType" randomiser-type="ListitemsGenerator">
+    <description/>
+    <property name="inputSource" value="file"/>
+    <property name="inputFile" value="c:\workspace\dgMaster\dist\DataBuild\staging\stage1\input\account_type.txt"/>
+    <property name="nullField" value="0"/>
+  </randomiser-instance>  
+  <randomiser-instance name="card" randomiser-type="GenericStageDataContextRandomiser">
+ 	<property name="sdcontextReference" value="long"/>
+ 	<property name="preFix" value="Card"/>
+ 	<property name="postFix" value=""/>
+  </randomiser-instance>
+</randomiser-instances>

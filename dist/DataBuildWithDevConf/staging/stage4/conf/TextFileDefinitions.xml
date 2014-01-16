@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datafile-definitions>
+  <File-output-definition delimiter="," filename="output\test_3.txt" name="STAGE_3" numOfRecs="100000">
+    <description/>
+    <data-item alignment="1" encloseChar="" order="1" randomiser-instance="ac" width="-1"/>
+    	 <data-item alignment="1" encloseChar="" order="-2" randomiser-instance="StageAmount" width="-1"/>
+  </File-output-definition>
+</datafile-definitions>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StageData>
+    <Variable name="stringExample" type="String" value="Hello World"/>
+     <Variable name="stringExamplelongNaturalIncrement" type="String" value=":1"/>
+    <Variable name="long" type="Long" value="212112"/>
+    <Variable name="longNaturalIncrement" type="long" value="1"/>
+    <Variable name="int" type="integer" value="50"/>
+    <Variable name="intNaturalIncrement" type="integer" value="50"/>
+    <Variable name="bool" type="boolean" value="true"/>
+    
+    
+</StageData>

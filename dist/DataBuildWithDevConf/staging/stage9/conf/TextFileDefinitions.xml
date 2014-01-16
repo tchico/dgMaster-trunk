@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datafile-definitions>
+  <File-output-definition delimiter="," filename="output\test_.txt" name="STAGE_6" numOfRecs="100000">
+    <description/>
+    <data-item alignment="1" encloseChar="" randomiser-instance="amount" width="-1"/>
+    <data-item alignment="1" encloseChar="" randomiser-instance="branch" width="-1"/>
+	   <data-item alignment="1" encloseChar="" randomiser-instance="customer" width="-1"/>
+    <data-item alignment="1" encloseChar="" randomiser-instance="account" width="-1"/>
+	   <data-item alignment="1" encloseChar="" randomiser-instance="card" width="-1"/>
+  </File-output-definition>
+</datafile-definitions>

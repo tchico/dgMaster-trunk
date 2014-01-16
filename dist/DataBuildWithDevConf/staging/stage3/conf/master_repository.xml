@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><randomiser-instances>
+  <randomiser-instance name="CustomerId" randomiser-type="ListitemsGenerator">
+    <description/>
+    <property name="inputSource" value="file"/>
+    <property name="inputFile" value="c:\workspace\dgMaster\dist\DataBuild\staging\stage1\input\customer_id.txt"/>
+    <property name="nullField" value="0"/>
+  </randomiser-instance>
+  <randomiser-instance name="Address" randomiser-type="ListitemsGenerator">
+    <description/>
+    <property name="inputSource" value="file"/>
+    <property name="inputFile" value="c:\workspace\dgMaster\dist\DataBuild\staging\stage1\input\address.txt"/>
+    <property name="nullField" value="0"/>
+  </randomiser-instance>
+  
+  <randomiser-instance name="cus" randomiser-type="GenericStageDataContextRandomiser">
+ 	<property name="sdcontextReference" value="long"/>
+ 	<property name="preFix" value="cust"/>
+ 	<property name="postFix" value=""/>
+  </randomiser-instance>  
+  
+  <randomiser-instance name="type" randomiser-type="ListitemsGenerator">
+    <description/>
+    <property name="inputSource" value="file"/>
+    <property name="inputFile" value="c:\workspace\dgMaster\dist\DataBuild\staging\stage1\input\custype.txt"/>
+    <property name="nullField" value="0"/>
+  </randomiser-instance>
+  
+</randomiser-instances>

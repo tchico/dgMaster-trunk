@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Schema>
+	<entity name="branch">
+		<forEvery entity="employee" value="1"/>
+		<forEvery entity="customer" value="2"/>
+	</entity>
+	
+	<entity name="employee">
+	</entity>
+	
+	<entity name="customer">
+		<forEvery entity="account1" value="2.5" />
+	</entity>
+	
+	<entity name="account1">
+		<forEvery entity="card1" value="2"/>
+		
+	</entity>
+	
+	<entity name="card1">
+		<forEvery event="transaction1" value="1"/>
+	</entity>
+	
+		<event name="transaction1">
+			<linkage node="card1" dis="90|10"/>
+	</event>
+	
+</Schema>

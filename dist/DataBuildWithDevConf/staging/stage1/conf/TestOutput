@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datafile-definitions>
+  <File-output-definition delimiter="," filename="C:\workspace\DgMaster\dist\DataBuild\staging\stage1\output\test_1.txt" name="STAGE_1" numOfRecs="200">
+    <description/>
+    <data-item alignment="3" encloseChar="" randomiser-instance="CustomerId" width="-1"/>
+    <data-item alignment="3" encloseChar="" randomiser-instance="AccountId" width="-1"/>
+    <data-item alignment="3" encloseChar="" randomiser-instance="ListItemGenTest" width="-1"/>
+    <data-item alignment="3" encloseChar="" randomiser-instance="EmailRandomiserTest" width="-1"/>
+  </File-output-definition>
+</datafile-definitions>
