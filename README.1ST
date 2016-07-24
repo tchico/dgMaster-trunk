@@ -1,4 +1,8 @@
-Thank you for using dgMaster :)
+This is an updated version of the dgmaster application (http://dgmaster.sourceforge.net/)
+Implemented a structured approach based on a pipeline that enables the user to configure the generation of multiple files, that could potentially depend on each other. 
+
+Example of usage: 
+Generate files corresponding to users, their bank accounts and transactions on those bank accounts. 
 
 In order to run dgMaster:
 java -jar dist/dgMaster.jar
@@ -6,5 +10,3 @@ java -jar dist/dgMaster.jar
 
 Use Java 6 to compile and run.
 
-For more information, please take a look at the website here:
-http://dgmaster.sourceforge.net/
