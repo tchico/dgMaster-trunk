@@ -4,6 +4,8 @@ Implemented a structured approach based on a pipeline that enables the user to c
 Example of usage: 
 Generate files corresponding to users, their bank accounts and transactions on those bank accounts. 
 
+See the Config Templates to understand how to configure the stages of a MasterBuild.
+
 In order to run dgMaster:
 java -jar dist/dgMaster.jar
 
